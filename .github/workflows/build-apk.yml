@@ -23,6 +23,15 @@ jobs:
           cd sleepy-main
           sed -i 's#https://mirrors.cloud.tencent.com/gradle/gradle-9.3.1-bin.zip#https://services.gradle.org/distributions/gradle-9.3.1-bin.zip#' gradle/wrapper/gradle-wrapper.properties
           chmod +x gradlew
+                - name: Extract Arabic strings
+        run: |
+          cp sleepy-main/app/src/main/res/values-ar/strings.xml arabic-strings.xml
+
+      - name: Upload Arabic strings
+        uses: actions/upload-artifact@v4
+        with:
+          name: arabic-strings
+          path: arabic-strings.xml
       - name: Inspect Android project
         shell: bash
         run: |
