@@ -29,27 +29,14 @@ jobs:
 
           chmod +x gradlew
 
-      - name: Extract Arabic strings
+      - name: Replace Arabic strings
         shell: bash
         run: |
           set -e
 
-          if [ -f "sleepy-main/app/src/main/res/values-ar/strings.xml" ]; then
-            cp "sleepy-main/app/src/main/res/values-ar/strings.xml" "arabic-strings.xml"
-          else
-            echo "Arabic strings file not found"
-            echo "Searching for strings.xml files:"
-            find sleepy-main -type f -name "strings.xml" | sort
-            exit 1
-          fi
+          cp strings.xml sleepy-main/app/src/main/res/values-ar/strings.xml
 
-      - name: Upload Arabic strings
-        uses: actions/upload-artifact@v4
-        with:
-          name: arabic-strings
-          path: arabic-strings.xml
-          if-no-files-found: error
-          retention-days: 30
+          echo "Arabic strings replaced successfully."
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
