@@ -1,0 +1,1019 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">حصَّتي</string>
+    <string name="widget_today_label">حصص اليوم</string>
+    <string name="widget_today_wide_label">اليوم · متوسط</string>
+    <string name="widget_twoday_wide_label">اليومان · متوسط</string>
+    <string name="widget_week_list_wide_label">الأسبوع · قائمة · متوسط</string>
+    <string name="widget_today_small_label">حصص اليوم · صغير</string>
+    <string name="widget_week_list_label">هذا الأسبوع (قائمة)</string>
+    <string name="widget_week_list_small_label">هذا الأسبوع (قائمة) · صغير</string>
+    <string name="widget_week_grid_label">هذا الأسبوع (شبكة)</string>
+    <string name="widget_week_grid_small_label">هذا الأسبوع (شبكة) · صغير</string>
+    <string name="widget_twoday_label">اليومان القادمان</string>
+    <string name="widget_twoday_small_label">اليومان القادمان · صغير</string>
+    <string name="widget_week_view_label">هذا الأسبوع (عرض)</string>
+    <string name="widget_week_view_small_label">هذا الأسبوع (عرض) · صغير</string>
+
+    
+    <string name="widget_today_description">حصص اليوم</string>
+    <string name="widget_today_small_description">حصص اليوم في بطاقة مضغوطة</string>
+    <string name="widget_today_wide_description">حصص اليوم في بطاقة عريضة</string>
+    <string name="widget_twoday_description">حصص اليومين القادمين</string>
+    <string name="widget_twoday_small_description">اليومان القادمان في بطاقة مضغوطة</string>
+    <string name="widget_twoday_wide_description">اليومان القادمان في بطاقة عريضة</string>
+    <string name="widget_week_list_description">حصص هذا الأسبوع في قائمة</string>
+    <string name="widget_week_list_small_description">حصص هذا الأسبوع في قائمة مضغوطة</string>
+    <string name="widget_week_list_wide_description">حصص هذا الأسبوع في قائمة عريضة</string>
+    <string name="widget_week_view_description">حصص هذا الأسبوع في عرض أسبوعي</string>
+    <string name="widget_week_view_small_description">حصص هذا الأسبوع في عرض أسبوعي مضغوط</string>
+    <string name="widget_week_grid_description">حصص هذا الأسبوع في شبكة</string>
+    <string name="widget_week_grid_small_description">حصص هذا الأسبوع في شبكة مضغوطة</string>
+
+    <string name="tab_schedule">الجدول</string>
+    <string name="tab_today">اليوم</string>
+    <string name="tab_mine">أنا</string>
+    <string name="tab_manage">الإدارة</string>
+
+    <string name="schedule_empty">لا يوجد جدول بعد</string>
+    <string name="schedule_empty_hint">انتقل إلى الإدارة للاستيراد أو أنشئ جدولك الأول يدويًا.</string>
+    <string name="schedule_go_manage">الانتقال إلى الإدارة</string>
+    <string name="schedule_manual_first">إضافة حصة يدويًا</string>
+    
+    <string name="schedule_empty_import">استيراد أول جدول</string>
+    <string name="schedule_empty_create_table">إنشاء أول جدول</string>
+    <string name="schedule_add_course">إضافة حصة</string>
+    <string name="share_sheet_title">مشاركة الجدول</string>
+    <string name="schedule_share_table">مشاركة الجدول</string>
+    <string name="exit_press_back_again">اضغط رجوع مرة أخرى للخروج</string>
+    <string name="schedule_current_week">الأسبوع %1$d</string>
+    <string name="schedule_nearest_busy_day">يوم الحصة القادمة</string>
+    <string name="schedule_no_course_today">لا توجد حصص اليوم</string>
+
+    <string name="import_title">استيراد الجدول / أوقات الحصص</string>
+    <string name="manage_current_table">الجدول الحالي</string>
+    <string name="manage_import">استيراد الجدول / أوقات الحصص</string>
+    <string name="manage_import_sub">استيراد الجدول أو أوقات الحصص من ملف أو نص أو الويب</string>
+    <string name="manage_new_table">جدول جديد</string>
+    <string name="manage_new_table_sub">إنشاء جدول فارغ وإضافة الحصص يدويًا</string>
+    <string name="manage_new_period_table">جدول أوقات حصص جديد</string>
+    <string name="manage_new_period_table_sub">إنشاء جدول أوقات فارغ لمشاركته بين الجداول</string>
+    <string name="manage_edit_current">تعديل الحالي</string>
+    <string name="manage_edit_current_sub">تعديل الاسم والتواريخ وأوقات الحصص</string>
+    <string name="manage_export">تصدير الجدول / أوقات الحصص</string>
+    <string name="manage_export_sub">مشاركة بصيغة Sleepy أو WakeUp JSON أو ICS أو نص</string>
+    <string name="manage_manual_add">إضافة حصة</string>
+    <string name="manage_manual_add_sub">إضافة حصة مباشرة إلى الجدول الحالي</string>
+    <string name="table_info">البداية: %1$s  |  الأسبوع %2$d  |  %3$d ترتيبات</string>
+    <string name="manage_view_all_tables">عرض الكل</string>
+    <string name="course_list_title">قائمة الحصص</string>
+    <string name="course_list_subtitle">جميع الحصص في الجدول الحالي</string>
+    <string name="course_list_empty">لا توجد حصص في الجدول الحالي</string>
+    <string name="course_list_arrangements">الترتيبات: %1$d</string>
+    <string name="current_table_week">الحالي · الأسبوع %1$d</string>
+    <string name="table_start_date">البداية: %1$s</string>
+    <string name="all_tables">جميع الجداول</string>
+    <string name="schedule_switch_table">تبديل الجدول</string>
+    <string name="schedule_undo">تراجع</string>
+    <string name="schedule_undo_none">لا شيء للتراجع عنه</string>
+    <string name="schedule_redo">إعادة</string>
+    <string name="schedule_redo_none">لا شيء للإعادة</string>
+    <string name="schedule_scale_keep">الحفاظ على المقياس</string>
+    <string name="all_tables_new">جدول جديد</string>
+    <string name="all_tables_duplicate">تكرار</string>
+    <string name="table_created_at">تم الاستيراد %1$s</string>
+    <string name="edit_table_title">تعديل الجدول</string>
+    <string name="edit_table_basic_info">المعلومات الأساسية</string>
+    <string name="edit_table_name">اسم الجدول</string>
+    <string name="edit_table_start_date">تاريخ بداية الفصل</string>
+    <string name="edit_table_start_date_hint">مثال: 2026-02-24</string>
+    <string name="edit_table_max_week">عدد الأسابيع</string>
+    <string name="edit_table_time_slots">أوقات الحصص</string>
+    <string name="edit_table_delete">حذف الجدول</string>
+    <string name="edit_table_save">حفظ الإعدادات</string>
+    <string name="edit_table_not_found">لم يتم العثور على الجدول</string>
+    <string name="edit_table_period_loading">لا تزال بيانات توقيت الجدول قيد التحميل. حاول مرة أخرى بعد قليل.</string>
+    <string name="edit_table_validation_error">يجب أن يكون التاريخ بصيغة yyyy-MM-dd والوقت بصيغة HH:mm، مع كون البداية قبل النهاية</string>
+    <string name="edit_table_delete_confirm">تأكيد الحذف</string>
+    <string name="edit_table_delete_msg">حذف الجدول "%1$s"؟ لا يمكن التراجع عن ذلك.</string>
+    <string name="edit_table_delete_msg_count">حذف الجدول "%1$s"؟ سيتم حذف حصصه البالغ عددها %2$d أيضًا. لا يمكن التراجع عن ذلك.</string>
+    <string name="default_table_name">افتراضي</string>
+    <string name="import_paste">لصق النص</string>
+    <string name="import_paste_hint">ألصق نص الجدول…</string>
+    <string name="import_file">استيراد من ملف</string>
+    <string name="import_qr">مسح QR</string>
+    <string name="import_jw">الاتصال بالمدرسة</string>
+    <string name="import_manual">إضافة يدوية</string>
+    <string name="import_success">تم الاستيراد بنجاح</string>
+    <string name="import_failed">فشل الاستيراد: %1$s</string>
+    <string name="import_preview">معاينة الاستيراد</string>
+    <string name="import_parsing">جارٍ التحليل…</string>
+    <string name="import_supported_formats">الصيغ المدعومة</string>
+    <string name="import_preview_title">معاينة الاستيراد</string>
+    <string name="import_target_table">الهدف: %1$s</string>
+    <string name="import_courses">الحصص</string>
+    <string name="import_conflicts">التعارضات</string>
+    <string name="import_appendable">قابل للإضافة</string>
+    <string name="import_table_name">اسم الجدول</string>
+    <string name="import_start_date">تاريخ البداية</string>
+    <string name="import_suggestion">اقتراح</string>
+    <string name="import_no_conflict">لا توجد تعارضات — يمكن الإضافة أو الاستبدال بأمان</string>
+    <string name="import_conflict_count">تم العثور على %1$d تعارض. يمكنك الاستيراد كجدول جديد أو إضافة الحصص غير المتعارضة فقط.</string>
+    <string name="import_conflict_more">%1$d تعارض إضافي…</string>
+    <string name="import_append_only">إضافة غير المتعارض فقط</string>
+    <string name="import_as_new">استيراد كجدول جديد</string>
+    <string name="import_overwrite">⚠ استبدال الحالي (تنبيه)</string>
+    <string name="import_append_as_new">دمج في جدول جديد</string>
+    <string name="import_append_conflict">إضافة مع التعارضات</string>
+    <string name="import_confirm_title">تأكيد قبل الاستيراد</string>
+    <string name="import_confirm_body">تحقق من تاريخ بداية الفصل وأوقات الحصص — وإلا فلن يكون الأسبوع الحالي دقيقًا.</string>
+    <string name="import_week_start">يبدأ الأسبوع الأول في</string>
+    <string name="import_confirm">تأكيد الاستيراد</string>
+    <string name="import_all_conflict">كل الحصص متعارضة — لا شيء يمكن إضافته</string>
+    <string name="import_content_empty">المحتوى فارغ</string>
+    <string name="import_select_table">يرجى اختيار جدول أولًا</string>
+    <string name="read_failed">فشل القراءة: %1$s</string>
+    <string name="cannot_read_file">تعذر قراءة الملف</string>
+    <string name="import_preview_sub">عاين أولًا ثم استورد — لا تستبدل جدولك الحالي</string>
+    <string name="format_wakeup_share">نص مشاركة WakeUp</string>
+    <string name="format_wakeup_desc">يبدأ بـ 【来自WakeUp课程表】</string>
+    <string name="format_wakeup_json">WakeUp JSON</string>
+    <string name="format_json_desc">تصدير ملف .json</string>
+    <string name="format_ics">تقويم ICS</string>
+    <string name="format_ics_desc">قابل للتصدير من نظام الجامعة</string>
+    <string name="format_csv">ملف CSV</string>
+    <string name="format_csv_desc">ملف .csv بعناوين، مفصولة بفواصل</string>
+    <string name="format_html">جدول HTML</string>
+    <string name="format_html_desc">تنسيق &lt;table&gt;، تتم المعالجة حسب الصف بعد اكتشاف العناوين</string>
+    <string name="format_plain">نص عادي</string>
+    <string name="format_plain_desc">تنسيق Sleepy الأصلي، حصة واحدة في كل سطر ومفصولة بعلامة |</string>
+
+    
+    <string name="format_help_spec">متطلبات التعرّف</string>
+    <string name="format_help_example">مثال</string>
+    <string name="format_help_close">فهمت</string>
+    <string name="format_detail_content_desc">عرض تفاصيل التنسيق</string>
+    <string name="copy_prompt">نسخ الطلب</string>
+    <string name="copied">تم النسخ</string>
+    <string name="ai_prompt_title">دع الذكاء الاصطناعي يحوّل لقطة الشاشة (تنسيق Sleepy الأصلي)</string>
+    <string name="ai_prompt_hint">انسخ الطلب أدناه إلى أي مساعد ذكاء اصطناعي (Doubao، ChatGPT…) مع لقطة جدولك. سيُخرج نص #sleepy-v1 — الصقه في الحقل أعلاه لاستيراده.</string>
+    <string name="ai_prompt_text">Task: Convert the timetable screenshot (or file content) I send next into the sleepy-v1 plain-text format. Output nothing besides the conversion result itself - no explanations, no greetings, no markdown code fences. The first line of your output must be #sleepy-v1.\n\n========== 1. Format rules ==========\n\nThe first line is always: #sleepy-v1\n\nEvery other line is one record, with columns separated by a vertical bar |. Three kinds of lines:\n\n1. T line (table info, optional, at most one):\nTtableName|termStartDate|totalWeeks|nodesPerDay\n· The start date format is YYYY-MM-DD and must be the Monday of week 1\n· Fill in only what the timetable explicitly states; leave unspecified fields empty. You may stop after the last known column, e.g. T|2026-03-02\n· If the timetable does not mention these at all, omit the T line entirely. Never guess.\n\n2. N line (per-period times, optional, one line per period):\nNnumber|startTime|endTime\n· e.g. N3|10:00|10:45\n· Only output N lines if the timetable explicitly provides a period-time table. Use 24-hour HH:mm; write 8:00 as 08:00\n· No period-time table in the timetable -&gt; output no N lines at all\n\n3. C line (courses, the main body, one line per occurrence):\nCname|day|nodes|weeks|teacher|room|color|note|time|group\nAlways exactly 10 columns / 9 bars. Empty columns stay empty, but the bars must not be dropped. Column rules:\n  Col 1 name: copy the timetable verbatim, character for character, any language\n  Col 2 day: Monday..Sunday = 1 2 3 4 5 6 7\n  Col 3 nodes: periods 3-4 = 3-4; single period 6 = 6\n  Col 4 weeks: see \"2. Week rules\"\n  Col 5 teacher: copy from the timetable; empty if absent\n  Col 6 room: same\n  Col 7 color: always empty\n  Col 8 note: only if the timetable states a note; otherwise empty\n  Col 9 time: only when the timetable explicitly marks a clock time for this course (e.g. an evening/non-standard-time class), as HH:mm-HH:mm; this is the private course start/end time and must not be added as an N period-time row; otherwise empty\n  Col 10 group: always empty\n\n========== 2. Week rules ==========\n\nExtract the set of weeks each course meets, then decide in order:\n1. A continuous range with no odd/even restriction -&gt; S-E, e.g. 1-16\n2. All odd weeks within the range (\"odd weeks\") -&gt; S-E单, e.g. 1-15单\n3. All even weeks (\"even weeks\") -&gt; S-E双, e.g. 2-16双\n4. Scattered weeks (e.g. \"weeks 1-8, 10, 12-16\") -&gt; split into maximal runs, one C line each, copying all other columns:\n   · A full-week run -&gt; S-E (e.g. 1-8, 12-16)\n   · A lone single week -&gt; S定 (e.g. 10定)\n   · A purely odd run -&gt; S-E单; a purely even run -&gt; S-E双\n   · A run that is neither continuous nor purely odd/even -&gt; S-E定 (e.g. weeks 6,7 -&gt; 6-7定)\n5. The timetable says nothing about weeks -&gt; 1-16\n\n========== 3. Extraction rules ==========\n\n· A course meeting multiple times per week (different days or periods) -&gt; multiple C lines, one per meeting; never merge into one line\n· Read period numbers from \"period X\" in the timetable; if it has only times and no periods, number the non-overlapping time slots 1, 2, 3... top to bottom and emit matching N lines\n· Copy names, teachers and rooms verbatim; if a text contains | \ \" &amp;lt; { ( escape each with a leading \; a newline inside text is the two characters \n and a tab is \t\n· Anything the timetable does not state stays empty. Never invent teachers, rooms, times or weeks.\n\n========== 4. Output self-check (verify silently, do not print) ==========\n\n· First line is #sleepy-v1 and nothing else precedes or follows the records\n· Every C line has exactly 9 bars / 10 columns\n· Day is a digit 1-7; hours are two digits (08:00, not 8:00)\n· The weeks column only ever shows S-E, S-E单, S-E双, S-E定 or S定\n· Names match the timetable verbatim; nothing was invented\n\n========== 5. Example output ==========\n\n#sleepy-v1\nT|2026-03-02\nN1|08:00|08:45\nN2|08:55|09:40\nN3|10:00|10:45\nN4|10:55|11:40\nN5|14:00|14:45\nN6|14:55|15:40\nN7|16:00|16:45\nN8|16:55|17:40\nN9|19:00|19:45\nN10|19:55|20:40\nC高等数学A|1|1-2|1-16|张三|A101||||\nC高等数学A|3|3-4|1-16|张三|A101||||\nC大学英语|2|3-4|1-15单|李四|C301||||\nC数据结构|4|3-4|2-16双|王五|C302||||\nC体育|4|5-6|3-4定||||||\nCJava实战|3|9-10|1-16||机房|||19:00-21:30|\nC影视鉴赏|7|6|10-16双||||||\nC形势与政策|5|8-9|1-8||||||\nC形势与政策|5|8-9|12-16||||||</string>
+
+    <string name="format_wakeup_share_when">Migrating everything from the WakeUp app. Copy the entire text generated by WakeUp\'s "Share courses" and paste it as-is.</string>
+    <string-array name="format_wakeup_share_spec">
+        <item>Copy the whole share text, including the 【来自WakeUp课程表】 header line</item>
+        <item>The text must contain a courseDetailJson field (WakeUp adds it automatically)</item>
+        <item>Table name, semester start date and per-course colors are imported too</item>
+    </string-array>
+    <string name="format_wakeup_share_example" formatted="false">【来自WakeUp课程表】\n课程分享:\n{"name":"My table","startDate":"2026-09-07","courseDetailJson":"%5B%7B%22name%22…%5D"}</string>
+
+    <string name="format_wakeup_json_when">Content of a WakeUp-exported .json file, or JSON you write yourself in this structure.</string>
+    <string-array name="format_wakeup_json_spec">
+        <item>The whole text must be JSON: starts with { and contains a courses array</item>
+        <item>Top level: name (table name), startDate (2026-09-07 format)</item>
+        <item>Each course: name, teacher, position (room), day (number 1-7, 1=Monday), startNode (first period), step (how many periods), startWeek/endWeek range, type (0 weekly / 1 odd / 2 even)</item>
+        <item>Periods 3-4 = startNode 3, step 2 (not 3 and 4)</item>
+        <item>color is optional</item>
+    </string-array>
+    <string name="format_wakeup_json_example" formatted="false">{\n  "name": "My table",\n  "startDate": "2026-09-07",\n  "courses": [\n    {"name":"Calculus","teacher":"John","position":"A101","day":1,"startNode":1,"step":2,"startWeek":1,"endWeek":16,"type":0}\n  ]\n}</string>
+
+    <string name="format_ics_when">Calendar files (.ics) exported from your school system or WakeUp. Pick the file via "Import from file", tap it in your file manager and choose Sleepy, or open it in a text editor and paste everything.</string>
+    <string-array name="format_ics_spec">
+        <item>Text must start with BEGIN:VCALENDAR — dropping the first line breaks recognition</item>
+        <item>Each class is one event: SUMMARY = course name, LOCATION = room; teacher is read from the description</item>
+        <item>Weekday is derived from the event date; week 1 = the Monday of the earliest event\'s week</item>
+        <item>Periods are read from the "第X - Y节" line in the description, or estimated from start/end times</item>
+        <item>Biweekly events are merged automatically</item>
+    </string-array>
+    <string name="format_ics_example" formatted="false">BEGIN:VCALENDAR\nBEGIN:VEVENT\nSUMMARY:Calculus\nLOCATION:A101\nDESCRIPTION:第1 - 2节\\nA101\\nJohn\nDTSTART:20260907T010000Z\nDTEND:20260907T015500Z\nRRULE:FREQ=WEEKLY;UNTIL=20261227T010000Z\nEND:VEVENT\nEND:VCALENDAR</string>
+
+    <string name="format_csv_when">Registry-exported tables, or Excel files saved as "CSV (comma delimited)".</string>
+    <string-array name="format_csv_spec">
+        <item>First line is the header. Required columns: course (course/name), day (day/weekday), node, week (week/weeks)</item>
+        <item>Optional columns: teacher, room, type, note</item>
+        <item>Node, two ways: one column like 1-2, or split into "start node" + "end node" columns</item>
+        <item>Day accepts 1-7, Monday, Mon</item>
+        <item>Week supports 1-16, 2-5,7-9, 11,13,15 — multiple ranges become separate courses</item>
+        <item>Optional "start time" + "end time" columns (HH:mm): real period times are applied automatically on import</item>
+        <item>Optional "custom time" column (yes/no): when set to yes, that row keeps its start/end as private course time and is not added to the shared period table</item>
+        <item>Type accepts 0/1/2 or weekly/odd/even</item>
+    </string-array>
+    <string name="format_csv_example" formatted="false">course,teacher,room,weekday,period,weeks,type,start time,end time,custom time\nCalculus,John,A101,Monday,1-2,1-16,weekly,08:00,08:45,\nEvening class,Mary,C301,3,11-12,1-16,weekly,20:50,22:00,yes\nEnglish,Lee,B202,3,3-4,1-16,odd,,,</string>
+
+    <string name="format_html_when">Timetable web pages saved as .html, copied table source, or tap the .html file in your file manager and choose Sleepy.</string>
+    <string-array name="format_html_spec">
+        <item>Text must start with a tag like &lt;!DOCTYPE, &lt;html, or &lt;table — any plain text before it breaks detection, delete it first</item>
+        <item>The page must contain a table whose header row includes "course"</item>
+        <item>Column names same as CSV: course, day, node, week required; teacher, room, type, note optional</item>
+        <item>Same as CSV: optional "start time" + "end time" columns, applied automatically on import</item>
+        <item>Same as CSV: optional "custom time" column (yes/no); yes preserves that row as a private-time course</item>
+        <item>Grid layouts with Monday-Sunday columns cannot be parsed; needs a long table with one course per row</item>
+    </string-array>
+    <string name="format_html_example" formatted="false">&lt;table&gt;\n&lt;tr&gt;&lt;td&gt;course&lt;/td&gt;&lt;td&gt;teacher&lt;/td&gt;&lt;td&gt;room&lt;/td&gt;&lt;td&gt;weekday&lt;/td&gt;&lt;td&gt;period&lt;/td&gt;&lt;td&gt;weeks&lt;/td&gt;&lt;td&gt;start time&lt;/td&gt;&lt;td&gt;end time&lt;/td&gt;&lt;td&gt;custom time&lt;/td&gt;&lt;/tr&gt;\n&lt;tr&gt;&lt;td&gt;Calculus&lt;/td&gt;&lt;td&gt;John&lt;/td&gt;&lt;td&gt;A101&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1-2&lt;/td&gt;&lt;td&gt;1-16&lt;/td&gt;&lt;td&gt;08:00&lt;/td&gt;&lt;td&gt;08:45&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;\n&lt;tr&gt;&lt;td&gt;Evening class&lt;/td&gt;&lt;td&gt;Mary&lt;/td&gt;&lt;td&gt;C301&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;11-12&lt;/td&gt;&lt;td&gt;1-16&lt;/td&gt;&lt;td&gt;20:50&lt;/td&gt;&lt;td&gt;22:00&lt;/td&gt;&lt;td&gt;yes&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;</string>
+
+    <string name="format_plain_when">Sleepy native format (sleepy-v1): compact, tidy and fault-tolerant. Great for handwriting and even better for letting AI convert a timetable screenshot (see the prompt below). The legacy tab-separated format (name teacher room weekday periods weeks type, optionally followed by start time + end time) still imports.</string>
+    <string-array name="format_plain_spec">
+        <item>First line is always #sleepy-v1</item>
+        <item>Course line layout: Cname|day|nodes|weeks|teacher|room|color|note|time|group - exactly 10 columns / 9 pipes</item>
+        <item>Empty columns stay empty, but the pipes must not be dropped</item>
+        <item>Day is 1-7 (Monday=1); nodes as a range 1-2, or a single node 6</item>
+        <item>Week column has five shapes: 1-16 (weekly), 1-15单 (odd), 2-16双 (even), 3-4定 (range), 10定 (single week)</item>
+        <item>Leave color empty for auto; the time column (private start-end clock times HH:mm-HH:mm for non-standard-time courses) is only for special courses like evening classes — once set, the course displays by clock time and is not added to the shared period table</item>
+        <item>Escape | \\ \" &lt; { ( in text with a leading backslash</item>
+        <item>Period-time line (optional): N&lt;number&gt;|start|end, e.g. N3|10:00|10:45; or a single Nd line when times equal the built-in preset</item>
+        <item>Table line (optional): Tname|startDate|totalWeeks|nodesPerDay; startDate must be the Monday of week 1</item>
+        <item>Unrecognized lines are listed in the import preview, never silently dropped</item>
+    </string-array>
+    <string name="format_plain_example" formatted="false">#sleepy-v1\nTMy timetable|2026-03-02|20|12\nNd\nC高等数学A|1|1-2|1-16|张三|A101||||\nC大学英语|2|3-4|1-15单|李四|C301||||\nC体育|4|5-6|3-4定||||||\nC晚课|3|11-12|1-16|李四|C301|||20:50-22:00|\nC影视鉴赏|7|6|10-16双||||||</string>
+    <string name="import_dropped_title">تعذر تحليل %1$d سطرًا</string>
+    <string name="import_dropped_hint">تم تخطي هذه الأسطر. تحقق من تنسيقها ثم أعد الاستيراد:</string>
+    <string name="import_warnings_title">ملاحظات</string>
+    <string name="export_native_title">تنسيق Sleepy الأصلي</string>
+    <string name="export_native_subtitle">نسخة احتياطية كاملة · أصغر حجمًا · موصى بها للنقل</string>
+    <string name="import_start_date_required">يرجى إدخال تاريخ بداية الفصل</string>
+    <string name="start_date_format">يجب أن يكون تنسيق التاريخ YYYY-MM-DD</string>
+    <string name="slot_time_required">وقت الحصة %1$d مطلوب</string>
+    <string name="slot_time_invalid">وقت الحصة %1$d غير صالح (يجب أن تكون البداية قبل النهاية)</string>
+    <string name="expand">اضغط للتوسيع</string>
+    <string name="collapse">اضغط للطي</string>
+    <string name="n_periods">%1$d حصص</string>
+
+    <string name="course_detail_title">تفاصيل الحصة</string>
+    <string name="course_detail_edit">تعديل</string>
+    <string name="course_detail_delete">حذف</string>
+    <string name="course_detail_edit_course">تعديل الحصة</string>
+    <string name="course_field_name">اسم الحصة</string>
+    <string name="course_field_teacher">المعلم</string>
+    <string name="course_field_room">الغرفة</string>
+    <string name="course_field_note">ملاحظة</string>
+    <string name="course_field_week">الأسبوع</string>
+    <string name="course_field_color">اللون</string>
+
+    <string name="edit_course">تعديل الحصة</string>
+    <string name="create_course">إنشاء حصة</string>
+    <string name="course_basic_info">المعلومات الأساسية</string>
+    <string name="course_basic_info_sub">المعلم والقاعة مشتركان؛ ويمكن للحصة أن تحتوي على عدة فترات زمنية</string>
+    <string name="course_name_required">اسم الحصة مطلوب</string>
+    <string name="course_alias">الاسم المختصر</string>
+    <string name="course_teacher">المعلم</string>
+    <string name="course_room">الغرفة</string>
+    <string name="course_note">ملاحظة</string>
+    <string name="course_color">لون الحصة</string>
+    <string name="color_use_different">استخدام لون مختلف</string>
+    <string name="color_follow_group">اتباع لون المجموعة</string>
+    <string name="change_group_color">تغيير لون المجموعة</string>
+    <string name="color_group_auto">تلقائي (الزاوية الذهبية)</string>
+    <string name="group_color_confirm_title">تغيير لون المجموعة</string>
+    <string name="group_color_confirm_msg">سيُطبّق لون المجموعة على كل فترة في هذه الحصة تتبع لون المجموعة.</string>
+    <string name="color_auto">تلقائي</string>
+    <string name="color_custom">مخصص</string>
+    <string name="color_custom_switch">لون مخصص</string>
+    <string name="course_group_color">لون المجموعة</string>
+    <string name="color_refresh">تبديل اللون التلقائي</string>
+    <string name="week_range">نطاق الأسابيع</string>
+    <string name="week_range_sub">النطاق الأسبوعي الافتراضي للحصة؛ استخدم "تطبيق على جميع الفترات" لاستبدال كل الفترات</string>
+    <string name="start_week">أسبوع البداية</string>
+    <string name="end_week">أسبوع النهاية</string>
+    <string name="meeting_slots">أوقات الحصة</string>
+    <string name="meeting_slots_sub">يمكن للحصة أن تحتوي على أي عدد من الفترات، ويمكن لكل فترة اختيار عدة أيام</string>
+    <string name="slot_n">الفترة %1$d</string>
+    <string name="slot_summary_week_single">الأسبوع %1$d</string>
+    <string name="slot_summary_week_range">الأسابيع %1$d–%2$d</string>
+    <string name="slot_summary_period_single">الفترة %1$d</string>
+    <string name="slot_summary_period_range">الفترات %1$d–%2$d (إجمالي %3$d)</string>
+    <string name="slot_summary_time_range">%1$s–%2$s</string>
+    <string name="slot_summary_teacher">المعلم: %1$s</string>
+    <string name="slot_summary_room">القاعة: %1$s</string>
+    <string name="slot_week_range">الأسابيع</string>
+    <string name="slot_week_order">لا يمكن أن يكون أسبوع بداية الفترة %1$d بعد أسبوع نهايتها</string>
+    <string name="apply_to_all_slots">تطبيق على جميع الفترات</string>
+    <string name="week_every">كل الأسابيع</string>
+    <string name="week_odd">الأسابيع الفردية</string>
+    <string name="week_even">الأسابيع الزوجية</string>
+    <string name="week_custom">مخصص</string>
+    <string name="add_slot">إضافة وقت</string>
+    <string name="save_course">حفظ الحصة</string>
+    <string name="delete_course">حذف الحصة</string>
+    <string name="delete_course_confirm">تأكيد حذف الحصة</string>
+    <string name="select_at_least_one_day">اختر يومًا واحدًا على الأقل</string>
+    <string name="delete_slot">حذف الوقت</string>
+    <string name="start_node">بداية الحصة</string>
+    <string name="step_count">عدد الحصص</string>
+    <string name="start_time">وقت البداية</string>
+    <string name="end_time">وقت النهاية</string>
+    <string name="mode_by_node">حسب رقم الحصة</string>
+    <string name="mode_by_time">حسب الوقت</string>
+    <string name="course_name_empty">اسم الحصة مطلوب</string>
+    <string name="week_must_be_positive">يجب أن يكون الأسبوع أكبر من 0</string>
+    <string name="slot_at_least_one_day">يجب أن تحتوي الفترة %1$d على يوم واحد على الأقل</string>
+    <string name="slot_start_node_positive">يجب أن تكون فترة بداية %1$d أكبر من 0</string>
+    <string name="slot_step_positive">يجب أن يكون عدد الفترات المتتالية في %1$d أكبر من 0</string>
+    <string name="slot_step_exceeds_max">الفترات %2$d–%3$d في %1$d تتجاوز الحد الأقصى للجدول (%4$d)</string>
+    <string name="slot_step_clamped_hint">الإدخال يتجاوز الحد الأقصى (%3$d). لإضافة فترات أكثر، اذهب إلى مدير الجداول وعدّل عدد الفترات في الجدول الحالي</string>
+    <string name="conflict_detail_title">تعارض مع حصص موجودة</string>
+    <string name="conflict_detail_save_anyway">حفظ على أي حال</string>
+    <string name="conflict_detail_go_back">رجوع</string>
+    <string name="conflict_detail_line">يتعارض مع "%4$s" — %1$s، الفترة %2$s، %3$s</string>
+    <string name="slot_time_overlap">الفترة %1$d والفترة %2$d متداخلتان في %3$s</string>
+    <string name="fix_issues_first">يرجى إصلاح هذه المشكلات أولًا</string>
+    <string name="more_unexpanded">%1$d أخرى غير موسعة</string>
+    <string name="create_course_btn">إنشاء الحصة</string>
+    <string name="time_format_hint">التنسيق HH:mm</string>
+
+    <string name="mine_title">أنا</string>
+    <string name="mine_subtitle">إعداداتك ومعلومات التطبيق</string>
+    <string name="mine_export">تصدير البيانات</string>
+    <string name="mine_stat_tables">الجداول</string>
+    <string name="mine_stat_courses">الحصص</string>
+    <string name="mine_stat_week">الأسبوع</string>
+
+        <string name="settings_high_refresh">معدل تحديث مرتفع</string>
+    <string name="settings_nav_style">نمط شريط التنقل السفلي</string>
+    <string name="settings_nav_style_docked">مثبّت</string>
+    <string name="settings_nav_style_floating">عائم</string>
+    <string name="settings_section_display_navigation">العرض والتنقل</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_display_mode">نمط العرض</string>
+    <string name="settings_display_node">عرض أرقام الحصص</string>
+    <string name="settings_display_node_sub">تظهر جميع الحصص بصيغة "الفترة N"</string>
+    <string name="settings_display_time">عرض الوقت</string>
+    <string name="settings_display_time_sub">تظهر جميع الحصص بصيغة "HH:mm–HH:mm"</string>
+    <string name="settings_start_view">العرض الافتراضي عند التشغيل</string>
+    <string name="settings_start_view_full">العرض الأسبوعي</string>
+    <string name="settings_start_view_cards">الشبكة</string>
+    <string name="settings_show_view_switcher">إظهار مبدّل العرض</string>
+    <string name="settings_grid_sub_info">تفاصيل بطاقات الشبكة</string>
+    <string name="settings_grid_sub_room">القاعة</string>
+    <string name="settings_grid_sub_room_sub">إظهار القاعة أسفل اسم الحصة (تُخفى إذا لم توجد)</string>
+    <string name="settings_grid_sub_teacher">المعلم</string>
+    <string name="settings_grid_sub_teacher_sub">إظهار المعلم أسفل اسم الحصة (يُخفى إذا لم يوجد)</string>
+    <string name="settings_grid_sub_none">لا شيء</string>
+    <string name="settings_grid_sub_none_sub">تُظهر بطاقات الشبكة اسم الحصة فقط</string>
+    <string name="settings_pill">عرض الصفحة الرئيسية</string>
+    <string name="settings_pill_scale">تكبير عرض الشبكة</string>
+    <string name="settings_grid_auto_hide_evening">إخفاء الفترات المسائية الفارغة</string>
+    <string name="settings_grid_auto_hide_evening_sub">إخفاء الفترات المسائية عندما لا توجد حصص مسائية طوال الفصل</string>
+    <string name="settings_grid_evening_start">تبدأ الفترة المسائية عند</string>
+    <string name="settings_grid_adaptive_height">ارتفاع صفوف الجدول التكيفي</string>
+    <string name="settings_grid_adaptive_height_sub">ضبط ارتفاع الصفوف لملاءمة الجدول على الشاشة</string>
+    <string name="settings_grid_pinch_zoom">تكبير الصفوف بإيماءة الضم</string>
+    <string name="settings_grid_pinch_zoom_sub">استخدم ضم إصبعين عموديًا على الجدول لتغيير ارتفاع الصف؛ يتعطل عند إيقافه</string>
+    <string name="settings_lab">مختبر</string>
+    <string name="settings_lab_sub">ميزات تجريبية، متوقفة افتراضيًا وقد تتغير بين الإصدارات</string>
+    <string name="settings_migration">نقل البيانات</string>
+    <string name="settings_migration_sub">تجميع جميع الجداول وجداول الفترات والتفضيلات وإعدادات الأدوات في ملف .sleepybackup يمكن استعادته على جهاز جديد</string>
+    <string name="settings_migration_export">تصدير نسخة نقل كاملة</string>
+    <string name="settings_migration_export_sub">إنشاء ملف .sleepybackup</string>
+    <string name="settings_migration_import">الاستيراد من نسخة احتياطية</string>
+    <string name="settings_migration_import_sub">اختر ملف .sleepybackup لاستعادته</string>
+    <string name="settings_migration_export_ok">تم تصدير .sleepybackup</string>
+    <string name="settings_migration_export_fail">فشل التصدير</string>
+    <string name="settings_migration_import_done">تم استيراد %1$d جدولًا و%2$d حصة</string>
+    <string name="settings_migration_import_fail">فشل الاستيراد: تعذر قراءة ملف النسخة الاحتياطية</string>
+    <string name="settings_migration_import_dialog_title">استيراد نسخة نقل احتياطية</string>
+    <string name="settings_migration_import_dialog_text">الاستبدال يمسح جميع الجداول والإعدادات المحلية ثم يستعيد النسخة الاحتياطية. الدمج يحافظ على البيانات المحلية ويضيف محتوى النسخة الاحتياطية فقط.</string>
+    <string name="settings_migration_import_overwrite">استبدال</string>
+    <string name="settings_migration_import_merge">دمج</string>
+    <string name="settings_grid_show_separators">إظهار فواصل الشبكة</string>
+    <string name="settings_grid_show_separators_sub">إظهار فواصل إضافية للصفوف والأعمدة في شبكة الجدول</string>
+    <string name="settings_grid_long_break_spacing">مسافة الاستراحة الطويلة</string>
+    <string name="settings_grid_long_break_spacing_sub">إضافة مسافة صف إضافية للاستراحات الطويلة المكتشفة ظهرًا أو مساءً</string>
+    <string name="settings_pill_week_scale">تكبير العرض الأسبوعي</string>
+    <string name="settings_pill_corner">زوايا البطاقات</string>
+    <string name="settings_week_two_column">عرض أسبوعي بعمودين</string>
+    <string name="settings_week_two_column_days">تقسيم الأيام بالتساوي</string>
+    <string name="settings_week_two_column_balance">موازنة حسب عدد الحصص</string>
+    <string name="settings_week_hide_empty">إخفاء الأيام الفارغة في العرض الأسبوعي</string>
+    <string name="settings_week_alias">إظهار الاسم البديل في العرض الأسبوعي</string>
+    <string name="settings_grid_alias">إظهار الاسم البديل في عرض الشبكة</string>
+    <string name="settings_name_original">الأصلي</string>
+    <string name="settings_name_alias">الاسم البديل</string>
+    <string name="settings_show_date">إظهار التواريخ في رأس الشبكة</string>
+    <string name="settings_conflict_style">نمط الحصص المتعارضة</string>
+    <string name="settings_conflict_stack">إزاحة متراكمة</string>
+    <string name="settings_conflict_stack_sub">الحصص المتداخلة مع ظهور الحصة السفلية عند الحافة</string>
+    <string name="settings_conflict_fold">زاوية مطوية</string>
+    <string name="settings_conflict_fold_sub">تُشير الزاوية المطوية إلى وجود حصص أخرى مخفية أسفل البطاقة</string>
+    <string name="settings_conflict_rail">شريط جانبي</string>
+    <string name="settings_conflict_rail_sub">يعرض شريط لوني على اليمين الحصص المتعارضة بأسمائها العمودية</string>
+    <string name="settings_conflict_stack_inset">مسافة إزاحة التراكم</string>
+    <string name="settings_conflict_rail_inset">الإزاحة من الحافة اليمنى</string>
+    <string name="settings_conflict_fold_size">حجم الزاوية المطوية</string>
+    <string name="settings_conflict_fold_size_sub">حجم علامة الزاوية المطوية؛ يضبط المظهر ومساحة النقر معًا</string>
+    <string name="settings_visible_days">الأيام الظاهرة</string>
+    <string name="settings_visible_days_sub">الأيام غير المحددة تُخفى في صفحة الجدول والأدوات</string>
+
+    <string name="theme_system">النظام</string>
+    <string name="theme_system_desc">اتباع إعداد النظام</string>
+
+    <string name="view_full">كامل</string>
+    <string name="view_cards">بطاقات</string>
+
+    <string name="today_today">اليوم</string>
+    <string name="today_nav_prev_day">اليوم السابق</string>
+    <string name="today_nav_next_day">اليوم التالي</string>
+    <string name="today_nav_back_to_today">العودة إلى اليوم</string>
+    <string name="today_no_course">لا توجد حصص</string>
+    <string name="today_rest">راحة</string>
+    <string name="widget_footer_more">المزيد</string>
+    <string name="widget_status_all_done">انتهت حصص اليوم</string>
+    <string name="widget_footer_more_short">+%1$d</string>
+
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="back">رجوع</string>
+    <string name="selected">محدد</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="confirm_delete">تأكيد الحذف</string>
+    <string name="no_course">لا توجد حصة</string>
+    <string name="n_courses">%1$d حصة</string>
+    <string name="action_close">إغلاق</string>
+
+    
+    <string name="widget_create_schedule">إنشاء جدول</string>
+    <string name="widget_open_sleepy">فتح حصَّتي لبدء الإضافة</string>
+    <string name="widget_edit_section_schedule">الجدول</string>
+    <string name="widget_edit_section_alias">عرض اسم الحصة</string>
+    <string name="widget_edit_section_scroll">التمرير</string>
+    <string name="widget_edit_scroll_subtitle">نافذة ثابتة افتراضيًا وتعمل مع كل المشغلات. عند التفعيل تصبح القوائم الزائدة قابلة للتمرير (تجريبية، لهذه الأداة فقط).</string>
+    <string name="widget_scroll_dialog_title">تمرير الويدجت</string>
+    <string name="widget_scroll_dialog_body">يعتمد التمرير على خدمة أدوات النظام. في بعض أنظمة الشركات المصنعة (Xiaomi وvivo وغيرها) قد تظهر الأداة فارغة أو تتأخر أو تفشل في التحديث. إذا ظهر أي خلل، أوقف هذا الخيار للعودة إلى النافذة الثابتة.</string>
+    <string name="widget_scroll_dialog_confirm">تأكيد</string>
+    <string name="widget_scroll_dialog_cancel">إلغاء</string>
+    <string name="widget_edit_default_label">الافتراضي</string>
+    <string name="widget_manage_title">إدارة الويدجت</string>
+    <string name="widget_edit_title">تعديل الويدجت</string>
+    <string name="widget_manage_empty">لم تتم إضافة أي ويدجت لحصَّتي إلى الشاشة الرئيسية بعد.</string>
+    <string name="widget_edit_compact_title">نافذة 3 أيام</string>
+    <string name="widget_edit_compact_today_first">اليوم أولًا</string>
+    <string name="widget_edit_compact_today_second">اليوم ثانيًا</string>
+    <string name="widget_manage_entry">إدارة الأدوات</string>
+    <string name="more_sections">%1$d أخرى...</string>
+    <string name="tomorrow">غدًا</string>
+    <string name="n_course_periods">%1$d فترات حصص</string>
+    <string name="course_node_format">الفترة %1$s</string>
+    <string name="course_period_range">%1$d-%2$d</string>
+
+    
+    <string name="jw_no_url">لم يتم إعداد رابط نظام التسجيل لهذه الجامعة</string>
+    <string name="jw_parse_empty">نتيجة التحليل فارغة. تأكد من أنك في صفحة "جدولي" وليس الصفحة الرئيسية أو تسجيل الدخول</string>
+    
+    <string name="jw_err_cross_domain_iframe">تم اكتشاف إطار مضمّن من نطاق آخر، وتعذرت قراءة الجدول (%1$s). افتح صفحة الجدول مباشرة عبر شبكة الجامعة أو VPN ثم حاول مرة أخرى</string>
+    <string name="jw_err_container_empty_after_delay">تم العثور على منطقة الجدول لكنها لم تُحمّل بالكامل بعد. انتظر حتى يظهر الجدول بالكامل ثم اضغط "استيراد هذه الصفحة" مرة أخرى</string>
+    <string name="jw_err_iframe_nav_pending">لم يبدأ إطار الجدول بالتحميل بعد. انتظر حتى يظهر الجدول بالكامل ثم اضغط "استيراد هذه الصفحة" مرة أخرى</string>
+    <string name="jw_err_wrong_page">هذه ليست صفحة الجدول. سجّل الدخول وافتح جدولك الشخصي أولًا</string>
+    <string name="jw_err_ucas_sep_portal">ما زلت في صفحة بوابة UCAS SEP. بعد تسجيل الدخول، افتح "نظام اختيار المقررات" من قائمة التطبيقات ثم استورد من صفحة الجدول</string>
+    <string name="jw_err_session_expired">انتهت الجلسة. سجّل الدخول مرة أخرى في الصفحة ثم اضغط "استيراد هذه الصفحة"</string>
+    <string name="jw_err_dismiss">إغلاق</string>
+    <string name="jw_err_empty_semester">لا توجد حصص في هذا الفصل. تأكد من اختيار الفصل الصحيح؛ لا يمكن استيراد الجداول المعتمدة على الصور</string>
+    <string name="jw_import_success">تم استيراد %1$d حصة بنجاح</string>
+    <string name="jw_parse_failed">فشل التحليل: %1$s</string>
+    <string name="jw_parse_failed_hint">
+
+تلميح: بالنسبة إلى HEU، سجّل الدخول عبر المتصفح ثم انتقل إلى صفحة "جدولي" قبل الضغط على الاستيراد</string>
+    <string name="jw_webview_not_ready">WebView غير جاهز</string>
+    <string name="jw_fetching">جارٍ جلب الجدول…</string>
+    <string name="jw_fetch_failed_no_response">فشل الجلب: لم تصل استجابة من الصفحة (قد تكون لا تزال قيد التحميل)</string>
+    <string name="jw_fetch_format_error">أعاد الجلب تنسيقًا غير صالح</string>
+    <string name="jw_fetch_failed">فشل الجلب: %1$s</string>
+    <string name="jw_page_not_loaded">لم يتم تحميل الصفحة بالكامل</string>
+    <string name="jw_after_login">بعد تسجيل الدخول</string>
+    <string name="jw_nav_hint">انتقل إلى صفحة "جدولي" ثم اضغط الزر الموجود على اليمين</string>
+    <string name="jw_import_page">استيراد هذه الصفحة</string>
+    <string name="jw_fetch_timeout">انتهت مهلة الجلب: لم يستجب الخادم لفترة طويلة. تحقق من الشبكة وحاول مرة أخرى</string>
+    <string name="jw_fetch_no_courses">تم الجلب بنجاح لكن لم يتم تحليل أي حصص: تأكد من أن الصفحة تعرض جدول هذا الفصل وأن الفصل صحيح</string>
+    <string name="jw_edit_url">تعديل الرابط الحالي</string>
+    <string name="jw_url_submit">فتح الرابط</string>
+    <string name="jw_url_hint">أدخل الرابط</string>
+    <string name="jw_url_invalid">أدخل رابط HTTP أو HTTPS صالحًا</string>
+    <string name="jw_refresh">تحديث</string>
+    <string name="jw_toggle_desktop_ua">تبديل إصدار سطح المكتب للموقع</string>
+    <string name="jw_toggle_mobile_ua">تبديل إصدار الهاتف للموقع</string>
+
+    
+    <string name="select_school">اختر الجامعة</string>
+    <string name="search_school">البحث عن الجامعات…</string>
+    <string name="search_school_url">ابحث عن جامعة أو أدخل الرابط…</string>
+    <string name="custom_url_entry">رابط أكاديمي مخصص</string>
+    <string name="custom_url_entry_hint">الجامعة غير موجودة؟ ألصق رابط نظامها الأكاديمي للاستيراد</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="no_school_found">لم يتم العثور على مدرسة</string>
+    <string name="url_direct_login">تسجيل الدخول بهذا الرابط</string>
+    <string name="url_detected">تم الاكتشاف:</string>
+    <string name="url_auto_detect">اكتشاف البروتوكول تلقائيًا</string>
+    <string name="url_match_school">الجامعة المطابقة: %s</string>
+
+    
+    <string name="course_week_range">%1$s (الأسبوع %2$d-%3$d)</string>
+
+    
+    <string name="select_date">اختيار التاريخ</string>
+    <string name="select_time">اختيار الوقت</string>
+
+    
+    <string name="add_period">إضافة وقت حصة</string>
+    <string name="start_label">البداية</string>
+    <string name="end_label">النهاية</string>
+    <string name="delete_period">حذف وقت الحصة</string>
+
+    <string name="mine_about">حول حصَّتي</string>
+    <string name="mine_about_body">Sleepy Schedule v%1$s\n\nA minimal, clean, local-first schedule app.\nAll data stays on your device — nothing is uploaded.\n\n· No ads\n· No tracking\n· Supports WakeUp / ICS / CSV / HTML / plain text import</string>
+
+    <string-array name="day_names">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    
+    <string name="date_long_format">%1$d/%2$d</string>
+    <string name="notif_title">تذكير الحصة</string>
+    <string name="notif_text">اضغط لعرض جدول اليوم</string>
+    <string name="theme_name_default">ليلكي</string>
+    <string name="theme_name_spring">ربيعي</string>
+    <string name="theme_name_ocean">محيط</string>
+    <string name="theme_name_peach">خوخي</string>
+    <string name="theme_name_slate">رمادي أردوازي</string>
+<string name="default_table_with_num">الافتراضي %1$d</string>
+    <string name="new_course">حصة جديدة</string>
+    <string name="jw_import_title">استيراد - %1$s</string>
+    <string name="month_day_format">%1$d/%2$d</string>
+    <string name="section_short">ح%1$d</string>
+    <string name="day_short_1">الإثنين</string>
+    <string name="day_short_2">الثلاثاء</string>
+    <string name="day_short_3">الأربعاء</string>
+    <string name="day_short_4">الخميس</string>
+    <string name="day_short_5">الجمعة</string>
+    <string name="day_short_6">السبت</string>
+    <string name="day_short_7">الأحد</string>
+    <string name="section_node_format">الفترة %1$d–%2$d</string>
+    <string name="section_single">الحصة %1$d</string>
+    <string name="mine_appearance">المظهر والسمة</string>
+    <string name="mine_general">عام</string>
+    <string name="theme_appearance">المظهر</string>
+    <string name="theme_mode_system">النظام</string>
+    <string name="theme_mode_light">فاتح</string>
+    <string name="theme_mode_dark">داكن</string>
+    <string name="theme_new">سمة جديدة</string>
+    <string name="theme_custom_edit">تعديل السمة</string>
+    <string name="theme_custom_name_label">اسم السمة</string>
+    <string name="theme_custom_default_name">السمة %1$d</string>
+    <string name="theme_editor_random">عشوائي</string>
+    <string name="theme_editor_random_desc">إنشاء مجموعة ألوان عشوائية؛ اضغط مرة أخرى إذا لم تناسبك</string>
+    <string name="theme_editor_from_seed">إنشاء من لون أساسي</string>
+    <string name="theme_editor_from_seed_desc">اختر لونًا أساسيًا واحدًا واحصل على مجموعة ألوان متناسقة</string>
+    <string name="theme_editor_manual">اختيار الأدوار يدويًا</string>
+    <string name="theme_editor_manual_desc">اضبط الألوان الأساسية والثانوية والثالثية ولون السطح واحدًا تلو الآخر</string>
+    <string name="theme_role_primary">أساسي</string>
+    <string name="theme_role_primary_desc">الأزرار والتحديد ووسم الأسبوع الحالي والروابط</string>
+    <string name="theme_role_secondary">ثانوي</string>
+    <string name="theme_role_secondary_desc">الشرائح والحاويات الثانوية</string>
+    <string name="theme_role_tertiary">ثالثي</string>
+    <string name="theme_role_tertiary_desc">شرائح التمييز مثل وسوم الفترات</string>
+    <string name="theme_role_surface">سطح محايد</string>
+    <string name="theme_role_surface_desc">الخلفية واتجاه تلوين البطاقات</string>
+    <string name="theme_editor_preview">معاينة</string>
+    <string name="theme_editor_preview_card_title">رياضيات متقدمة</string>
+    <string name="theme_editor_preview_card_room">المبنى 1 · 302</string>
+    <string name="theme_editor_delete_confirm">حذف هذه السمة المخصصة؟</string>
+    <string name="theme_editor_delete_confirm_body">ستعود الصفحات والأدوات التي تستخدمها إلى السمة الافتراضية "ليلكي".</string>
+<string name="appearance_section_theme">ألوان السمة</string>
+    <string name="appearance_section_schedule_display">عرض الجدول</string>
+    <string name="appearance_period_header">رؤوس الفترات</string>
+    <string name="appearance_home_style">نمط الصفحة الرئيسية</string>
+    <string name="appearance_header_layout">التخطيط</string>
+    <string name="appearance_layout_horizontal">أفقي</string>
+    <string name="appearance_layout_legacy">رأس قديم</string>
+    <string name="appearance_layout_legacy_sub">الحفاظ على عرض الفترة والوقت الأصلي</string>
+    <string name="appearance_layout_vertical">عمودي</string>
+    <string name="appearance_layout_three_line">رأس من ثلاثة أسطر</string>
+    <string name="appearance_header_preview">معاينة مباشرة</string>
+    <string name="appearance_header_style">نمط الفترة</string>
+    <string name="appearance_header_show_x">إظهار "الفترة X"</string>
+    <string name="appearance_header_hanging">تحريك اليمين/اليسار بمقدار %1$s من عروض وقت البداية</string>
+    <string name="appearance_section_widget">الأداة</string>
+    <string name="about_update_latest">أنت تستخدم أحدث إصدار v%1$s</string>
+    <string name="update_found_title">تم العثور على تحديث</string>
+    <string name="update_download">تنزيل</string>
+    <string name="update_cancel">إلغاء</string>
+    <string name="update_downloading">جارٍ التنزيل…</string>
+    <string name="update_installing">جارٍ التثبيت…</string>
+    <string name="update_retry">إعادة المحاولة</string>
+    <string name="update_download_failed">فشل التنزيل</string>
+    <string name="about_author">المؤلف</string>
+    <string name="about_author_name">Lingion</string>
+    <string name="about_license_body">Parts of the course-import adapters in this app are based on the publicly available implementations of the following open-source projects. They are organized in two tiers: cross-university foundational projects and per-school projects. Tap a school card to expand and view all student-maintained projects referenced for that school.
+
+Cross-university foundational projects: WakeUp Schedule (YZune, Apache-2.0) and WakeupSchedule_BUPT (dIT8Zv, Apache-2.0) — reference implementations for twelve educational-system parsers (Qingzhi and variants, legacy Zhengfang, URP, Chengfang, HNUST); WakeupSchedule_Kotlin (Apache-2.0) for classic Wisedu EAMS; the cqu.js adapter from Shiguang Schedule for Chongqing University portal REST; shiguang_warehouse (XingHeYuZhuan, MIT) for WHUT kcbcxby, classic EAMS and new-Zhengfang grid view; zfn_api (openschoolcn, MPL-2.0) and FlowCourse (jiaweiyaya, GPL-3.0) for new-Zhengfang kbList cross-validation; iwut (TokenTeam, AGPL-3.0, protocol shape only) for WHUT section mapping; Shangke Schedule shangkeschedule (qiqqqqq517, Apache-2.0) and WakeUp Schedule school registries used for cross-checking our school list.
+
+Per-school attribution (one card per school, expand to see details) — Hefei University of Technology HFUT: HFUT-Schedule (Chiu-xaH, MIT), HfutOpenApi (BoynChan, MIT), hfut_schedule_hacker (Aoi-cn), django-hfut-auth (elonzh, MIT), hfut-api (hfut-soft-ware), hfut-api (SnowingFox), hfut_api_service (onlineG2), HFUTer (BrikerMan), HFUTICS (ssyu0808), AiSchedule-for-hfut (imnuke, GPL-3.0), AISchedule (HualiNox), classduck (luyishui); Southeast University SEU: SEUTimetable (sakimidare, Apache-2.0), Aetik-yue/hormone, luzy99/SEUAutoLogin; Zhejiang University ZJU: zju-ical-py (Xecades, LGPL-2.1); USTC: USTC-timetable-to-ics (1970633640), ustc-course-timetable (HowardZorn, GPL-3.0), ustc-timetable (kirsh1, AGPL-3.0); Sichuan University SCU: ScuTimetable (Z-P-J); Northeastern University NEU: neu_wisedu2wakeup (CreamPig233), PopulusYang/NeuTimetable, neucn/elise, RekaYOO/NEU-JWXT-Toolkit, PeterPtroc/neu-jwxt-to-wakeup, leavesvv-source/NEU-Timetable; Chongqing University CQU: 321CQU/pymycqu, BillYang2016/CQU-class2ics, haowang02/CourseMonitor, LengerHu/CQU_classtabletoics, Hagb/cqu_timetable_new, VayneDuan/CQU-Grade-Monitor, weearc/cm-http-api, barryZZJ/course_to_calander_converter; Wuhan University of Technology WHUT: courseTable (acm910); UESTC: MilLoong/UESTC-EAMS-Helper-App, MilLoong/UESTC-EAMS-Helper-Python, KaranocaVe/UESTCJWCWatchdog, whtsky/uestc-eams-cleartimeout-userscript, Sunmxt/UESTC-EAMS; Guangdong University of Technology GDUT: N0tExpectErr0r/GDUT-ClassTimeTable, Richard-Zheng/GDUT-Schedule-ng, StarArchive/gdut-course-frontend, StarArchive/gdut-course-backend, HoneQ7/GDUT_iOS_Timetable; Guangdong University of Finance and Economics GDUFE: jkgeekJack/Android-GDUFE-JWC-SDK-1.0.0, Kiteio/GDUFE-wrapper; Guangdong University of Finance GDUf: Kiteio/Punica, gduf-finmind; Guangdong University of Foreign Studies GDUFS: yongjianzheng/Gdufszhushou, Crazioker/agency; Guangdong Medical University GDMU: user-supplied capture package confirmed zf_new protocol (new ZhengFang zftal-ui-v5 bare /kbcx/ path), see docs/release-notes-v1.0.49.md; Changsha University of Science and Technology CSUST: zHElEARN/CSUSTKit, CreaMakers/EduSpider, timeisthe/CSUSTDataGet, Julius-lq/EduAdminSystem, JS-CAUTION/csust-course-schedule; Beijing University of Posts and Telecommunications BUPT: helium777/bupt-course-grab, JmPotato/BUPT-Grader, Seizzzz/Auto-Login-BUPT; Peking University PKU: zhongxinghong/PKUAutoElective, thezzisu/pku-elective, Hovennnnn/PKUAutoElective2023, Lihhan/AutoElective_4_PKU, AuYang261/PKU_Elective_Toolset; Beijing University of Chemical Technology BUCT: MarkYangKp/ZhengFangJY; University of Chinese Academy of Sciences UCAS: ldiex/UCAS_Course_Schedule_Convertor (Python, 13-section + course-week mapping), Hurray0/UCAS_GET_Course (Python, xkgo.ucas.ac.cn course-fetch script), cld378632668/ucas_course_tool (Java, UCAS course utility), GentleCP/UCAS-Helper (TypeScript, UCAS course/grade helper);wirsbf/TraintimePda-UCAS (Dart, SEP login-chain CDP capture 2026-09: 303 chain + single JSESSIONID + RSA slogin form)、tbjuechen/sep-api (Python MIT, unofficial SEP API client); Beihang University BUAA: APassbyDreg/BUAA_JW_Utils (Python toolset, ieas2.1 course-select + evaluation URL anchors), SE2020-TopUnderstanding/BUAA-Campus-Tools-Backend (Python, jwxt-7001.e2.buaa.edu.cn/ieas2.1/kbcx/queryGrkb schedule endpoint), fondoger/buaa-teacher-evaluation (MIT, one-click evaluation via sso.buaa.edu.cn CAS), Cauchy1412/BUAAGetCourse (Python course-grabber script), KKRainbow/JWOneShotEval (PHP, intra-campus IP anchor); BUAA byxt.buaa.edu.cn 2026-09-19 cross-verification (new/reused): fontlos/buaa-api (Rust, MIT); BUAASubnet/UBAA (Kotlin, MIT, 245 stars, protocol layer + schedule endpoint reference); CoolwindHF/buaa2wakeup (Python, MIT, undergraduate jwapp timetable format reference); awesome-buaa-cs/buaa-curriculum (API.md corroboration); cantBeFoundGroup/OpenBUAA (Python, AasApi form); el-ev/BUAA-ics-gen (Python, MIT, titleDetail week extraction reference); Krignd/KAgenda (Kotlin, WebScheduleEngine hook design + cellDetail parsing reference); Yiki21/iclass_buaa_tui (Rust, GPL-3.0, 13 stars, getMyScheduleDetail field set confirmation); Lidozs55/BUAAer-Smart-Schedule-on-electron (Vue, teachingSchedule endpoint reference); WhXcjm/buaa-byxt-aischedule (JS, GPL-3.0, XiaoAI adaptation parser.js research form); MeanZhang/buaa-ai-schedule (archived, MIT, legacy undergraduate form corroboration); Alyssumira/BUAA-Schedule (Kotlin, MIT, cellDetail teacher-weeks + titleDetail location dual-form reference); lyy1119/BuaaScheduleRender (Go, MIT, GSMIS week bitmap algorithm reference); zjafb/BUAA-Hangzhou-Schedule (MIT, UBAA fork, Hangzhou campus corroboration); Beijing Forestry University BJFU: Bloomberg2000/bjfu_course_ics_generator, Bloomberg2000/bjfu_util.py; Anhui University AHU: MoeclubM/AHU-AIO (Dart, new academic REST client, lib/jw/api/jw_api.dart), qiqqqqq517/shangkeschschedule (Apache-2.0) AHU adapter (WebVPN+CAS+get-data protocol family consensus, ahu.js), abydym/Ahu_Plus (GPL-3.0, Kotlin same-stack, JwModels.kt+CourseRepository.kt print-data+get-data dual-track), Landon-3314/AHU-TimeTable (Flutter, academic_course_api_parser.dart print-data activities field mapping), Zeraora-807/Anhui-Univ-DSH-Tool (TypeScript DeepSeek Harness, print-data studentTableVms extraction), MuxYang/AhuCourseSelectCLI (Python course-select CLI, NEGATIVE: course-selection-api protocol family outside EAMS5), Tonyseth/AHU_JW_GPA_Calculator (userscript GPA, INDIRECT), curdbin/AHU-API (Python, NEGATIVE: legacy ZhengFang ASP.NET jw1.ahu.cn/jw2.ahu.cn), UponNoise/AHU_SBI_DMT (Python, NEGATIVE: legacy ZhengFang jwxt3.ahu.edu.cn); Northeast Forestry University NEFU: bboy-xp/nefu-crawler, heyMahalo/crouse_select; Donghua University DHU: tk.dcmmcc, Bad-086/DHU_CourseMonitor; Yunnan University of Finance and Economics YNUFE: NINIYOYYO/ynufe-campus-app, MiaoWuNYA/ynufeRealLogin; Beijing Institute of Technology BIT: BIT-Login (BIT101-dev); Beijing Information Science and Technology University BISTU: iBistu (ProjektMing); Anhui Jianzhu University AHU-JZ: JdaAssist (CH4019, MIT); Chongqing College of Mobile Telecommunications CQYTU: CQYTZFCheckScores (xM3GAN, Apache-2.0); South China Agricultural University SCAU: ScheduleXParser_SCAU (greyovo); Qilu University of Technology QLU: JW-spider (Zhy423310825); Bohai University BHU: BohaiServiceDome (joun233); Northeast Petroleum University NEPU: WeNEPU (cutiechi); Nanjing University of Science and Technology NUST: HeraldStudentCurriculum (idailylife); Beijing Jiaotong University BJTU: bjtu_mis_Android (wan300, MIT); BJTU-MIS-HarmonyOS (Anyes666, MIT); BJTUselfService (HFDLYS, MIT); bjtu-cli (fish2lab); BJTUselfService-macOS (fish2lab); BJTU-course-assistant (s1y4x1); ZiuChen/userscript (MIT); BJTU-iCalendar-Generator (ymzhang-cs, MIT); bjtu-timetable (Moliseeee); BJTU-course-autoget-program (hyskr); BjtuCoursePlatform (57Darling02); bjtuDean (jlytwhx, MIT); bjtubox_python (jlytwhx); Campus-Mate (Orien233); BJTU-STU-MCP (ymzhang-cs); CourseRobber (xschur); Futuremind-BJTU; BJTU_ezRate (Yukikasu, MIT); bjtu_teaching_assessment (xxxand, MIT); BJTU-script (Coconut00); BJTU-CC (aooxin); CourseTable (etherealviator, MIT); ZF-Assistant (mcdona1d); Greasy Fork 430918 北交大iCalender课表生成;Jiangsu Ocean University JOU: jianghaidai (sunjingquan, closed-source reference, protocol analysis only); JOU-Campus-Guide (sunjingquan); jou_course_bot (brodamndamn); Wehhit-server (dengjj); Wehhit (zqy1); Grain (LeeReindeer, GPL-3.0); finance (GeorgeLeoo); finance-server (GeorgeLeoo); JStore (GeorgeLeoo); RSSHub jou routes (RSSHub, MIT). Yanshan University YSU / boya_pp: LzBsA (github.com/LzBsA, original protocol contribution), qnxg/hnu_query (AGPL-3.0), qnxg/weihuda_backend (qnxg), heriec/suda-yjs-shedule (heriec), dlutor/chaoxingbook (MIT). Southwest Jiaotong University SWJTU: AmaneSuzuha000/SWJTU_Login (YHXT CAS + ytoken cookie + common API direct evidence), 1-nuo/swjtu-course-grabber (ytoken header + JWT sub student ID + SM2 course-select encryption), Arex-lbb/auto-course-grabber (JWT + SM2 + A0422 expiry code), 1837634311/SWJTU-Course-Management-Script (GPL-3.0, TMS/vatuu counter-evidence), HackSwjtu/Postime (MIT, legacy academic-network counter-evidence), lpzams/swjtu-course-crawler (legacy vatuu counter-evidence), 949144093/SWJTU-JiaoWuAutoLogin (legacy vatuu counter-evidence), kakasearch/course_download (legacy vatuu counter-evidence), zx1411057234/VatuuSpider (legacy vatuu counter-evidence), kashaku/no-vatuu-evaluation (legacy vatuu counter-evidence), Joe-create-star/swjtu-dektx-reminder (MIT, OCW/YETHAN multi-tenant corroboration).WakeUp protocol family cross-verification (2026-09): Dawn-Course (HF-CYGG, GPL-3.0), WakeUp_SHU (ershiyidian), CourseHelper (jiangyiqi99, GPL-3.0), aischedule-lit-kingosoft (icepie, MIT), XiaoAISchedule_hebust (web1n), ai-schedule-chaoxing (moeshin, MIT), tzvcst-schedule-chaoxing (Sittymin, AGPL-3.0), xiaoai-shuwei-course (ZKJJaker, negative evidence), jxufe-auto-evaluate (wzj1122, MIT), KINGOSOFT-LOGIN (52funny), xiaoaiSchedule (xiaxiaoyu8), mi-schedule (Kou-JunHao, MIT), AISchedule-xjsf (ltxhhz, MIT), AIScheduleSCAU (greyovo), MI_AI_Course_Schedule (ceresOPA), AISchedule-QiangZhi (MyLikeGirl), classpush (sungithub270, GPL-3.0), XiaoAiScheduleOfSUOT (trueWangSyutung), XiaoAiCurriculumSchedule (LukeJean), getICS (Konata09), WITClassScheduleToCalendar (DOROMOLLL, MIT), CrawlerCourseTable (canliture), SYU_KINGGOClassSel (XTAI9), hait_AICourseTable (zzzsq1), AIShedule_cqwu (cqwu-ehall, AGPL-3.0), WakeUpSchedule (Daydream357, MIT), shike-android (sw7943604-del), shiguang_Tester (XingHeYuZhuan, MIT), dutsso (yuanyuanzijin), pub-docs (zfman, Qingguo API docs), eduData-GoBack (huhu415)、SCAU-Grad-Automatically-Fill-Evaluation-Form-JS (jiefing, Gwork-family control naming corroboration), NUISTTable (zyc-816); four-school cross-verification: dream2333/NWUPL-Pure-EMS, linling-zy/kust-schedule, 3056810551/nuit-class-schedule.</string>
+    <string name="about_license_detail">الترخيص والاعتمادات</string>
+    <string name="license_page_title">الترخيص والاعتمادات</string>
+    <string name="license_gpl_section">الترخيص</string>
+    <string name="license_gpl_body">Sleepy هو تطبيق مفتوح المصدر لجدولة الحصص. يُصدر الكود المصدري بموجب رخصة GNU General Public License الإصدار 3.0. يُسمح للجميع باستخدام البرنامج وتعديله وتوزيعه. نرحب بالمساهمات عبر GitHub.</string>
+    <string name="license_attribution_section">اعتمادات الأنظمة الأكاديمية</string>
+    <string name="license_attribution_note">تستند أجزاء من موائمات استيراد الأنظمة الأكاديمية إلى تطبيقات مفتوحة المصدر من المشاريع التالية، مع الشكر لجميع أصحابها.</string>
+    <string name="license_foundational_section">مشاريع أساسية مشتركة بين الجامعات</string>
+    <string name="license_perschool_section">اعتمادات كل جامعة</string>
+    <string name="license_contributor_section">المساهمون</string>
+    <string name="about_update_check">التحقق من التحديثات</string>
+    <string name="about_update_check_detail">يتحقق من إصدارات GitHub عند تشغيل التطبيق؛ وتظهر لافتة في صفحة حول التطبيق عند العثور على إصدار جديد</string>
+    <string name="about_update_available">يتوفر تحديث</string>
+    <string name="about_license_title">الترخيص</string>
+    <string name="about_source">المصدر</string>
+    <string name="about_source_url">github.com/lingion/sleepy</string>
+    <string name="about_feedback">الملاحظات</string>
+    <string name="about_feedback_detail">أبلغ عن الأخطاء أو شارك الأفكار عبر GitHub Issue، أو تواصل مع المؤلف بالبريد الإلكتروني</string>
+    <string name="about_feedback_github">مشكلة على GitHub</string>
+    <string name="about_feedback_email">البريد الإلكتروني</string>
+    <string name="about_qq_title">مجموعة QQ</string>
+    <string name="about_qq_group_number">1063407652</string>
+    <string name="about_qq_detail">معرّف المجموعة %1$s · اضغط للنسخ وفتح QQ للانضمام</string>
+    <string name="about_qq_copied">تم نسخ معرّف المجموعة — انضم إليها في QQ</string>
+    <string name="about_qq_copy_action">نسخ معرّف المجموعة</string>
+    <string name="about_qq_no_qq">تم نسخ معرّف المجموعة. لم يتم العثور على QQ — ابحث عنه يدويًا.</string>
+    <string name="about_feedback_email_subject">[ملاحظات Sleepy]</string>
+    <string name="about_feedback_email_body">يرجى وصف المشكلة أو الفكرة:
+
+— البيئة —
+(اختياري)
+</string>
+    <string name="about_feedback_no_mail_app">لم يتم العثور على تطبيق بريد. استخدم GitHub Issue بدلًا من ذلك.</string>
+    <string name="about_title">حول حصَّتي</string>
+    <string name="about_update">التحديث</string>
+    <string name="about_update_checking">جارٍ التحقق من التحديثات…</string>
+    <string name="about_update_detail">إذا تعذر الوصول إلى GitHub، سيستخدم التطبيق المرآة تلقائيًا</string>
+    <string name="about_update_dismiss">إخفاء لافتة التحديث</string>
+    <string name="about_version">الإصدار</string>
+    <string name="about_version_detail">الإصدار %1$s (البناء %2$d)</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_confirm">موافق</string>
+    <string name="export_copied_hint">تم فتح نافذة المشاركة</string>
+    <string name="export_course_count">%1$d حصة</string>
+    <string name="export_failed">فشل التصدير، يرجى المحاولة مرة أخرى</string>
+    <string name="export_ics_subtitle">تنسيق iCalendar قياسي، قابل للاستيراد إلى تقويم النظام / Google / Apple Calendar</string>
+    <string name="export_ics_title">تقويم ICS</string>
+    <string name="calendar_import_title">إضافة إلى التقويم</string>
+    <string name="calendar_import_subtitle">اختر تقويمًا ونطاقًا ثم راجع قبل الإضافة</string>
+    <string name="calendar_import_loading">جارٍ تحميل الجدول المحدد…</string>
+    <string name="calendar_permission_explanation">يحتاج Sleepy إلى الوصول إلى التقويم لعرض التقويمات القابلة للكتابة وإضافة الحصص التي تختارها. يُطلب الإذن فقط عند استخدام هذه الميزة.</string>
+    <string name="calendar_permission_denied">تم رفض إذن التقويم</string>
+    <string name="calendar_permission_action">السماح والمتابعة</string>
+    <string name="calendar_no_writable_calendar">لم يتم العثور على تقويم قابل للكتابة. فعّل حسابًا أو تقويمًا محليًا في تطبيق التقويم أولًا.</string>
+    <string name="calendar_target_label">تقويم الوجهة</string>
+    <string name="calendar_choose_target">اختر التقويم</string>
+    <string name="calendar_range_label">نطاق الاستيراد</string>
+    <string name="calendar_range_week">هذا الأسبوع</string>
+    <string name="calendar_range_month">هذا الشهر</string>
+    <string name="calendar_range_semester">الفصل الدراسي</string>
+    <string name="calendar_apply_transfers">تطبيق التغييرات</string>
+    <string name="calendar_normal_reminder">إضافة تذكير تقويم عادي</string>
+    <string name="calendar_minutes_before">الدقائق قبل الموعد</string>
+    <string name="calendar_first_period_alarm">تجربة تذكيرات الفترة الأولى</string>
+    <string name="calendar_first_period_scope">يُضبط فقط عندما توجد حصة فعلية في الفترة الأولى في ذلك اليوم. لا تُحتسب الحصص اللاحقة إذا كانت الفترة الأولى فارغة.</string>
+    <string name="calendar_alarm_minutes_before">دقائق التنبيه قبل الفترة الأولى</string>
+    <string name="calendar_alarm_disclaimer">تجريبية: حفظ حدث لا يضمن أن يرن التنبيه. يعتمد ذلك على تطبيق التقويم والحساب. تحقق من الحصص المهمة في تقويمك.</string>
+    <string name="calendar_preview_action">معاينة الاستيراد</string>
+    <string name="calendar_preview_count">ستتم إضافة %1$d حصة</string>
+    <string name="calendar_invalid_skipped">سيتم تخطي %1$d حصة ذات أوقات غير صالحة</string>
+    <string name="calendar_transfer_mark">أُعيدت جدولتُها</string>
+    <string name="calendar_alarm_mark">تجربة تنبيه</string>
+    <string name="calendar_more_rows">و%1$d أخرى</string>
+    <string name="calendar_second_confirm_warning">لن تُحذف تلقائيًا الأحداث التي لم تعد موجودة بعد تغيير الجدول. يمكنك حذف عمليات استيراد Sleepy لاحقًا بشكل منفصل، باستثناء الأحداث التي عُدلت يدويًا.</string>
+    <string name="calendar_confirm_import">تأكيد الاستيراد</string>
+    <string name="calendar_result_summary">أضيفت %1$d، حُدّثت %2$d، دون تغيير %3$d، تم تخطي المعدلة %4$d، تم تخطي غير الصالحة %5$d، بدائل التنبيه %6$d، فشل %7$d</string>
+    <string name="calendar_delete_managed">حذف عمليات استيراد Sleepy (%1$d)</string>
+    <string name="calendar_final_confirm_title">تأكيد تغييرات التقويم</string>
+    <string name="calendar_final_confirm_body">ستتم كتابة %1$d حدث حصة في التقويم المحدد. لن تُحذف الأحداث القديمة دفعة واحدة تلقائيًا. قد يقوم الحساب بمزامنة هذه الأحداث. متابعة؟</string>
+    <string name="calendar_final_import_action">إضافة الحصص</string>
+    <string name="calendar_delete_confirm_title">حذف عمليات استيراد Sleepy؟</string>
+    <string name="calendar_delete_confirm_body">سيتحقق Sleepy من الأحداث المستوردة لهذا الجدول ويحذفها. ستبقى الأحداث التي عدلتها.</string>
+    <string name="calendar_delete_action">حذف الأحداث المستوردة</string>
+    <string name="calendar_delete_result">حُذف %1$d، أُبقي بعد التعديلات %2$d، مفقود مسبقًا %3$d</string>
+    <string name="export_json_subtitle">بنية الجدول كاملة، قابلة للاستيراد مباشرة في WakeUp والتطبيقات المشابهة</string>
+    <string name="export_json_title">JSON متوافق مع WakeUp</string>
+    <string name="export_no_table">لا يوجد جدول متاح للتصدير</string>
+    <string name="export_pick_table">اختر جدولًا لتصديره</string>
+    <string name="export_current_table_badge">الجدول الحالي</string>
+    <string name="export_saved_to">تم الحفظ في Download/Sleepy/%1$s</string>
+    <string name="export_share_chooser">مشاركة الجدول</string>
+    <string name="export_share_subtitle">تنسيق نصي قصير، يمكن لصقه في أي تطبيق محادثة</string>
+    <string name="export_share_title">مشاركة كنص</string>
+    <string name="export_start_date">يبدأ الفصل %1$s</string>
+    <string name="export_title">تصدير جدول الحصص/جدول الجرس</string>
+    <string name="import_new_table_hint">(سيتم إنشاؤه كجدول جديد)</string>
+    <string name="jw_config_confirm">تأكيد الاستيراد</string>
+    <string name="jw_config_title">التأكيد قبل الاستيراد</string>
+    <string name="jw_table_name_label">اسم الجدول</string>
+    <string name="jw_pending_apply">طلب الدعم</string>
+    <string name="jw_pending_close">إغلاق</string>
+    <string name="jw_pending_grad">خريج</string>
+    <string name="jw_pending_input_url">إدخال الرابط يدويًا</string>
+    <string name="jw_pending_legacy">قديم</string>
+    <string name="jw_pending_manual">إضافة حصة يدويًا</string>
+    <string name="jw_pending_msg">The course registration system for %1$s is not yet supported by Sleepy.\n\nYou can:\n1. Tap \"Request Support\" to submit to the developer\n2. Tap \"Enter URL Manually\" to open and log in via WebView\n3. Temporarily import via HTML / CSV file, or add courses manually</string>
+    <string name="jw_pending_pending">قيد الانتظار</string>
+    <string name="jw_pending_supported">مدعوم</string>
+    <string name="jw_pending_title">استيراد نظام تسجيل المقررات لهذه الجامعة غير متاح بعد</string>
+    <string name="jw_pending_use_csv">الاستيراد عبر ملف CSV</string>
+    <string name="jw_pending_use_html">الاستيراد عبر ملف HTML</string>
+    <string name="mine_refresh_widgets">تحديث جميع الأدوات</string>
+    <string name="mine_refresh_widgets_done">تم تحديث جميع الأدوات</string>
+    <string name="notif_before_class_text">الحصة التالية: %1$s في %2$s في %3$s</string>
+    <string name="notif_before_class_text_with_teacher">الحصة التالية: %1$s في %2$s في %3$s، المعلم: %4$s</string>
+    <string name="notif_before_class_title">تذكير قبل الحصة</string>
+    <string name="notif_channel_before_class">تذكير قبل الحصة</string>
+    <string name="notif_channel_before_class_desc">يُعلمك بالحصة التالية قبل بدء كل حصة</string>
+    <string name="notif_channel_daily">تذكير الجدول اليومي</string>
+    <string name="notif_channel_daily_desc">يرسل ملخصًا لحصص اليوم أو اليوم التالي في الوقت المحدد</string>
+    <string name="notif_channel_fluid">السحابة العائمة / الجزيرة الفائقة</string>
+    <string name="notif_channel_fluid_desc">يعرض بطاقة حصة قابلة للتوسيع في الوقت الفعلي قبل الحصة</string>
+    <string name="notif_daily_text_first">الحصة الأولى: %1$s في %2$s في %3$s</string>
+    <string name="notif_daily_text_no_course">خذ استراحة واستمتع بيومك!</string>
+    
+    <string name="notif_daily_title">جدول اليوم</string>
+    <string name="notif_tomorrow_title">جدول الغد</string>
+    <string name="notif_daily_title_no_course">اليوم هو اليوم %1$d من الشهر، ولا توجد حصص اليوم</string>
+    <string name="notif_tomorrow_title_no_course">غدًا هو اليوم %1$d من الشهر، ولا توجد حصص غدًا</string>
+    <string name="notif_tomorrow_text_no_course">لا توجد حصص غدًا. خذ استراحة!</string>
+    <string name="notif_room_unknown">قاعة غير معروفة</string>
+    <string name="reminder_banner_sub">إظهار لافتة قبل الحصة في شريط الإشعارات</string>
+    <string name="reminder_banner_title">تذكير باللافتة</string>
+    <string name="jw_error_dialog_title">مشكلة في الاستيراد</string>
+    <string name="jw_diag_export_btn">تصدير حزمة التشخيص</string>
+    <string name="jw_diag_exporting">جارٍ إنشاء حزمة التشخيص…</string>
+    <string name="jw_diag_export_saved">تم الحفظ في Download/Sleepy/教务日志/%1$s</string>
+    <string name="jw_diag_export_failed">فشل إنشاء الحزمة: %1$s</string>
+    <string name="jw_diag_export_chooser">مشاركة حزمة التشخيص</string>
+    <string name="jw_diag_progress_step">الخطوة %1$d / %2$d</string>
+    <string name="jw_diag_progress_percent">%1$d%%</string>
+    <string name="jw_diag_stage_dom_inventory">جارٍ التقاط عناصر DOM القابلة للنقر…</string>
+    <string name="jw_diag_stage_storage">جارٍ التقاط قيم مفاتيح Web Storage…</string>
+    <string name="jw_diag_stage_links">جارٍ التقاط روابط الصفحة والقوائم المنسدلة…</string>
+    <string name="jw_diag_stage_network_snapshot">جارٍ التقاط لقطة للشبكة أثناء التشغيل…</string>
+    <string name="jw_diag_stage_network_replay">جارٍ إعادة تشغيل طلبات الشبكة (≤30ث)…</string>
+    <string name="jw_diag_stage_resource_replay">جارٍ إعادة جلب موارد النطاق نفسه (≤16ث)…</string>
+    <string name="jw_diag_stage_cookies">جارٍ التقاط قيم ملفات تعريف الارتباط كاملة…</string>
+    <string name="jw_diag_stage_zip">جارٍ ضغط أرشيف التشخيص…</string>
+    <string name="jw_diag_stage_save_share">جارٍ الحفظ في التنزيلات وفتح نافذة المشاركة…</string>
+    <string name="reminder_before_class_preview">مثال: الحصة التالية رياضيات متقدمة الساعة 08:00 في المبنى A101</string>
+    <string name="reminder_before_class_preview_dynamic">مثال: %1$s — الحصة التالية: %2$s في %3$s في %4$s%5$s</string>
+    <string name="reminder_before_class_preview_dynamic_no_course">مثال: لا توجد حصص قادمة للتذكير بها.</string>
+    <string name="reminder_before_class_sub">تذكيرك بالحصة التالية قبل بدء كل حصة</string>
+    <string name="reminder_before_class_title">تذكير قبل الحصة</string>
+    <string name="reminder_before_minutes_label">قبل الحصة بـ</string>
+    <string name="reminder_before_minutes_unit">دقيقة</string>
+    <string name="reminder_daily_preview">مثال: اليوم 15، توجد 3 حصص. الحصة الأولى 08:00 رياضيات متقدمة @ المبنى A101</string>
+    <string name="reminder_preview_today_date">اليوم، %1$s (%2$s)</string>
+    <string name="reminder_preview_tomorrow_date">غدًا، %1$s (%2$s)</string>
+    <string name="reminder_preview_date">%1$s (%2$s)</string>
+    <string name="reminder_preview_teacher">، المعلم: %1$s</string>
+    <string name="reminder_daily_preview_dynamic">مثال: %1$s — %2$d حصص. الحصة الأولى: %3$s في %4$s في %5$s%6$s</string>
+    <string name="reminder_daily_preview_dynamic_no_course">مثال: %1$s — لا توجد حصص.</string>
+    <string name="reminder_daily_sub">ضبط ملخصات الحصص اليومية: معاينة اليوم ومعاينة مساء الغد</string>
+    <string name="reminder_daily_time_label">وقت التذكير اليومي</string>
+    <string name="reminder_daily_title">تذكير يومي</string>
+    <string name="reminder_tomorrow_time_label">وقت معاينة الغد</string>
+    <string name="reminder_tomorrow_preview">مثال: غدًا 16، توجد 3 حصص. الحصة الأولى 08:00 رياضيات متقدمة @ المبنى A101</string>
+    <string name="reminder_daily_today_toggle_title">ملخص اليوم</string>
+    <string name="reminder_daily_today_toggle_sub">إرسال ملخص حصص اليوم في الوقت المحدد</string>
+    <string name="reminder_tomorrow_toggle_title">معاينة الغد</string>
+    <string name="reminder_tomorrow_toggle_sub">إرسال ملخص الغد في مساء اليوم السابق</string>
+    <string name="reminder_fluid_field_name">اسم الحصة</string>
+    <string name="reminder_fluid_field_room">الموقع</string>
+    <string name="reminder_fluid_field_teacher">المعلم</string>
+    <string name="reminder_fluid_field_time">الوقت</string>
+    <string name="reminder_fluid_fields">المحتوى الأساسي للفقاعة</string>
+    <string name="reminder_fluid_fields_hint">اختر حقل العرض الأساسي</string>
+    <string name="reminder_fluid_note">Tap the notification to expand course details. Whether it appears as Fluid Cloud / Super Island depends on the phone system, notification permissions, and manufacturer service eligibility.</string>
+    <string name="reminder_experimental_tag">تجريبي</string>
+    <string name="reminder_fluid_status_title">حالة السحابة العائمة / الجزيرة الفائقة</string>
+    <string name="reminder_fluid_status_notification_required">يلزم إذن الإشعارات لتفعيل هذه الميزة.</string>
+    <string name="reminder_fluid_status_unknown">The Fluid Cloud / Super Island authorization status cannot be read directly. Use the button below to open notification settings and confirm the system permission.</string>
+    <string name="reminder_fluid_status_enabled">السحابة العائمة / الجزيرة الفائقة مفعلة.</string>
+    <string name="reminder_fluid_status_settings_required">افتح إعدادات النظام لتفعيل السحابة العائمة / الجزيرة الفائقة أولًا.</string>
+    <string name="reminder_fluid_status_not_supported">نظام الجهاز الحالي لا يدعم السحابة العائمة / الجزيرة الفائقة.</string>
+    <string name="reminder_fluid_go_to_settings">الانتقال إلى الإعدادات</string>
+    <string name="reminder_fluid_test_button">اختبار التحديث المباشر</string>
+    <string name="reminder_fluid_test_started">تم نشر بطاقة الاختبار — تحقق من أعلى لوحة الإشعارات</string>
+    <string name="reminder_fluid_test_course">حصة اختبار</string>
+    <string name="reminder_fluid_test_room">قاعة اختبار</string>
+    <string name="reminder_reliability_title">موثوقية العمل في الخلفية</string>
+    <string name="reminder_reliability_notification">الإشعارات: %1$s</string>
+    <string name="reminder_reliability_exact_alarm">التنبيهات الدقيقة: %1$s</string>
+    <string name="reminder_reliability_battery">تحسين البطارية: %1$s</string>
+    <string name="reminder_reliability_widget">أدوات الشاشة الرئيسية: %1$s</string>
+    <string name="reminder_reliability_vendor">بطاقة الشركة المصنعة المباشرة: %1$s</string>
+    <string name="reminder_reliability_promoted">إذن التحديثات المباشرة: %1$s</string>
+    <string name="reminder_reliability_not_applicable">غير منطبق</string>
+    <string name="reminder_reliability_ready">جاهز</string>
+    <string name="reminder_reliability_missing">غير مفعّل</string>
+    <string name="reminder_reliability_degraded">متدهور</string>
+    <string name="reminder_reliability_unknown">غير معروف</string>
+    <string name="reminder_fluid_sub">إظهار بطاقات الحصص في الوقت الفعلي على هواتف Xiaomi وvivo وSamsung وMeizu المدعومة</string>
+    <string name="reminder_fluid_title">السحابة العائمة / الجزيرة الفائقة</string>
+    <string name="reminder_master_sub">السماح لـ Sleepy بإرسال إشعارات الحصص</string>
+    <string name="reminder_master_title">تذكيرات الحصص</string>
+    <string name="reminder_pick_time">اختيار وقت التذكير</string>
+    <string name="reminder_title">التذكيرات</string>
+    <string name="school_count_supported">%1$d مدعومة</string>
+    <string name="school_count_total">%1$d إجماليًا</string>
+    <string name="school_pinyin_hint">يدعم الأحرف الأولى بنظام Pinyin / اختصارات الجامعات (مثل hrbeu)</string>
+    <string name="semester_out_of_range">التاريخ الحالي خارج نطاق الفصل الدراسي</string>
+    <string name="semester_not_started">لم يبدأ الفصل الدراسي</string>
+    <string name="semester_ended">انتهى الفصل الدراسي</string>
+    <string name="schedule_week_prefix">الأسبوع %1$d</string>
+    <string name="today_semester_out_hint">خارج نطاق الفصل الدراسي — تُعرض الحصص للمرجع</string>
+    <string name="settings_vert_punct">علامات الترقيم العمودية للأداة</string>
+    <string name="settings_nearest_busy_day">إظهار أقرب يوم دراسي عند الفراغ</string>
+    <string name="settings_nearest_busy_day_sub">إظهار أقرب يوم توجد فيه حصص داخل التطبيق والأدوات عندما لا تبقى حصص اليوم</string>
+    <string name="settings_vert_punct_sub">عند عرض أسماء الحصص عموديًا في الأدوات، استبدال ( ) 《 》 بالأشكال العمودية</string>
+    <string name="settings_widget">إعدادات الأدوات</string>
+    <string name="settings_widget_colorless">ألوان موحدة لحصص الأدوات</string>
+    <string name="settings_widget_colorless_sub">تحييد ألوان حصص الأدوات فقط؛ لا تتأثر ألوان التطبيق والألوان المخصصة</string>
+    <string name="settings_course_colorless">ألوان موحدة لشرائح الحصص داخل التطبيق</string>
+    <string name="settings_course_colorless_sub">تحييد ألوان شرائح الحصص داخل التطبيق فقط؛ لا تتأثر ألوان الأدوات والألوان المخصصة</string>
+    <string name="settings_widget_separator">فاصل أداة الأسبوع</string>
+    <string name="settings_holiday_holiday">تعتيم العطلات الرسمية</string>
+    <string name="settings_holiday_holiday_sub">تظهر الحصص في العطلات الرسمية (مثل اليوم الوطني وعيد الربيع) باللون الرمادي</string>
+    <string name="settings_holiday_entry_sub">ضبط قواعد التعتيم وجداول أيام التعويض</string>
+    <string name="holiday_page_title">العطلات وجدول التعويض</string>
+    <string name="holiday_data_source">مصدر البيانات</string>
+    <string name="holiday_source_label">unpkg.com/holiday-calendar · CN</string>
+    <string name="holiday_data_failed">فشل جلب بيانات العطلات. تحقق من الشبكة وحاول مرة أخرى</string>
+    <string name="holiday_data_empty">لا توجد بيانات للعطلات أو أيام التعويض لهذا العام</string>
+    <string name="holiday_data_refresh">تحديث</string>
+    <string name="holiday_data_retry">إعادة المحاولة</string>
+    <string name="holiday_year_prev">السنة السابقة</string>
+    <string name="holiday_year_next">السنة التالية</string>
+    <string name="holiday_list_holidays">العطلات الرسمية</string>
+    <string name="holiday_list_workdays">أيام العمل التعويضية</string>
+    <string name="holiday_workday_badge">يوم عمل</string>
+    <string name="settings_holiday_title">جدول تعويض العطلات</string>
+    <string name="holiday_makeup_title">مصدر حصص أيام التعويض</string>
+    <string name="holiday_makeup_subtitle">يُحدد لكل جدول. تحتفظ أيام التعويض غير المعيّنة بجدولها الخاص — لا يتم التخمين.</string>
+    <string name="holiday_makeup_unset">لا شيء</string>
+    <string name="holiday_transfer_pick_other">تاريخ آخر…</string>
+    <string name="holiday_transfer_edit_segment">تعديل جزء العطلة هذا</string>
+    <string name="holiday_transfer_orphan_title">تعيينات منتهية</string>
+    <string name="holiday_transfer_orphan_hint">لم يعد يوم العطلة موجودًا (متبقٍ بعد تغيير السنة أو حذف جزء). امسحه يدويًا.</string>
+    <string name="holiday_transfer_clear">مسح</string>
+    <string name="holiday_transfer_editable_segments_title">أجزاء العطلات القابلة للتعديل</string>
+    <string name="holiday_makeup_no_table">أنشئ جدولًا قبل إعداد أيام التعويض</string>
+    <string name="settings_holiday_weekend">تعتيم حصص عطلة نهاية الأسبوع</string>
+    <string name="settings_holiday_weekend_sub">إظهار حصص السبت والأحد باللون الرمادي تلقائيًا</string>
+    <string name="settings_holiday_style">نمط التعتيم</string>
+    <string name="settings_holiday_style_grey">رمادي</string>
+    <string name="settings_holiday_style_strikethrough">رمادي مع شطب</string>
+    <string name="settings_holiday_workday">تجاهل أيام العمل التعويضية</string>
+    <string name="settings_holiday_workday_sub">تبقى حصص السبت والأحد التعويضية طبيعية عند تفعيل تعتيم عطلة نهاية الأسبوع</string>
+    <string name="holiday_edit_title">تعديل التواريخ المخصصة</string>
+    <string name="holiday_add_title">إضافة تواريخ مخصصة</string>
+    <string name="holiday_name_label_date">تاريخ البدء</string>
+    <string name="holiday_name_label">الاسم</string>
+    <string name="holiday_name_label_end">تاريخ الانتهاء</string>
+    <string name="holiday_date_invalid">تواريخ غير صالحة أو النهاية قبل البداية</string>
+    <string name="holiday_removed_section">محذوف</string>
+    <string name="holiday_restore">استعادة</string>
+    <string name="holiday_delete_range">حذف</string>
+    <string name="holiday_type_holiday">عطلة رسمية</string>
+    <string name="holiday_type_workday">يوم عمل تعويضي</string>
+    <string name="holiday_custom_badge">مخصص</string>
+    <string name="holiday_add_entry">إضافة تواريخ مخصصة</string>
+    <string name="settings_widget_separator_sub">إظهار فواصل بين أسماء الحصص في أداة قائمة الأسبوع</string>
+    
+    <string name="edit_period_input">إدخال</string>
+    <string name="edit_period_duration_label">مدة كل فترة</string>
+    <string name="unit_minutes">دقائق</string>
+    <string name="edit_period_total_label">إجمالي الفترات</string>
+    <string name="unit_periods">فترات</string>
+    <string name="edit_period_first_start">تبدأ الفترة الأولى</string>
+    <string name="short_break">استراحة قصيرة</string>
+    <string name="long_break">استراحة طويلة</string>
+    <string name="break_assign_hint">تعيين الاستراحة (اضغط للتبديل)</string>
+    <string name="preview">معاينة</string>
+    <string name="break_min_two_periods">تحتاج إلى فترتين على الأقل لتعيين الاستراحات</string>
+    <string name="empty_placeholder">(فارغ)</string>
+    <string name="period_format_node">الفترة %1$s</string>
+    <string name="period_time_range">الفترة %1$s  %2$s ~ %3$s</string>
+    <string name="break_continuous_0">   ↓ 0 دقيقة متواصلة</string>
+    <string name="break_continuous_n">   ↓ %1$d دقيقة %2$s</string>
+    <string name="duration_assign_hint">تعيين المدة (اضغط للتبديل)</string>
+    <string name="short_duration">مدة قصيرة</string>
+    <string name="long_duration">مدة طويلة</string>
+    <string name="duration_min_one_period">تحتاج إلى فترة واحدة على الأقل لتعيين المدد</string>
+    <string name="duration_period_n">%1$d دقيقة %2$s</string>
+    <string name="add_label">إضافة %1$s</string>
+    <string name="mode_manual">الوضع اليدوي</string>
+    <string name="mode_auto">الوضع التلقائي</string>
+    <string name="label_from">من</string>
+    <string name="schedule_jump_week">الانتقال إلى أسبوع</string>
+    <string name="schedule_empty_name">لا يزال الجدول "%1$s" فارغًا</string>
+    <string name="schedule_empty_name_hint">أضف حصصًا إلى هذا الجدول أو استورد جدولًا جديدًا</string>
+    <string name="course_count_format">%1$d حصة</string>
+    <string name="today_suffix">اليوم</string>
+    <string name="no_course_today">لا توجد حصص اليوم</string>
+    <string name="default_course_name">حصة جديدة</string>
+    <string name="default_room">قاعة غير محددة</string>
+    <string name="error_unknown">خطأ غير معروف</string>
+    
+    <string name="irregular_options_section">خيارات متقدمة</string>
+    <string name="irregular_options_section_sub">فترات طرفية / أوقات مخصصة للجدولة الخاصة — لا حاجة لتوسيعها للحصص العادية</string>
+    <string name="irregular_time_format">يجب أن يكون وقت البداية/النهاية غير المنتظم بصيغة HH:mm</string>
+    <string name="irregular_time_order">يجب أن يكون وقت البداية غير المنتظم قبل النهاية</string>
+    <string name="edge_node_range">الفترة %1$d %2$s – %3$s</string>
+    <string name="irregular_node_switch">فترة غير منتظمة</string>
+    <string name="irregular_node_switch_sub">ربط بفترة طرفية خارج الشبكة القياسية (الفترة 0 / -1 / N+1)</string>
+    <string name="irregular_time_switch">وقت غير منتظم</string>
+    <string name="irregular_time_switch_sub">تجاوز وقت البداية/النهاية لهذه الكتلة؛ قد تقع بالكامل خارج نافذة الفترة</string>
+    <string name="irregular_node_pick">اختيار الفترة</string>
+    <string name="irregular_node_new">الفترة %1$d (جديدة)</string>
+    <string name="irregular_node_new_title">فترة جديدة %1$d</string>
+    <string name="irregular_node_required">الفترة غير المنتظمة في الكتلة %1$d غير صالحة؛ اخترها مرة أخرى</string>
+    <string name="irregular_slot_edit_title">تعديل الوقت الافتراضي للفترة %1$d</string>
+    <string name="irregular_duration_label">المدة (بالدقائق)</string>
+    <string name="error_no_version_found">لم يتم العثور على إصدار من الموقع الرئيسي أو المرآة</string>
+    <string name="error_empty_download">الملف الذي تم تنزيله فارغ</string>
+    <string name="edge_node_label">الفترة %1$d</string>
+    <string name="edge_insert_start_label">وقت البداية</string>
+    <string name="edge_insert_end_label">وقت النهاية</string>
+    <string name="edge_insert_ok">إضافة</string>
+    <string name="mine_period_tables">جدول الجرس</string>
+    <string name="period_tables_title">جدول الجرس</string>
+    <string name="period_table_bound_count">مرتبط بـ %1$d جدول/جداول</string>
+    <string name="period_table_new">جدول جرس جديد</string>
+    <string name="period_table_copy">تكرار جدول الجرس</string>
+    <string name="period_table_share_sheet_title">مشاركة جدول الجرس</string>
+    <string name="period_table_share_native_title">تنسيق Sleepy الأصلي</string>
+    <string name="period_table_share_native_sub">جدول الجرس فقط، قابل للاستيراد في Sleepy</string>
+    <string name="period_table_share_json_title">تنسيق JSON</string>
+    <string name="period_table_share_json_sub">أوقات الفترات بتنسيق موحد</string>
+    <string name="period_table_import_title">استيراد جدول الجرس</string>
+    <string name="period_table_import_body">تم اكتشاف بيانات جدول الجرس فقط. سيتم إنشاء جدول جرس واحد فقط.</string>
+    <string name="period_table_import_confirm">استيراد جدول الجرس</string>
+    <string name="period_table_name_taken">هذا الاسم مستخدم بالفعل في جدول آخر</string>
+    <string name="period_table_copy_dialog_title">نسخ جدول الجرس</string>
+    <string name="period_table_name_label">اسم جدول الجرس</string>
+    <string name="period_table_delete_confirm">حذف جدول الجرس</string>
+    <string name="period_table_delete_msg_body">حذف جدول الجرس "%1$s"؟</string>
+    <string name="period_table_delete_blocked">لا يزال مرتبطًا بـ %1$d جدول/جداول؛ أعد الربط أولًا</string>
+    <string name="period_table_bind_label">جدول الجرس</string>
+    <string name="period_table_unbound">غير مرتبط (استخدم فترات هذا الجدول)</string>
+    <string name="period_tables_tab">جدول الجرس</string>
+    <string name="period_table_nodes_count">%1$d فترة/اليوم</string>
+    <string name="period_table_save_preview_title">معاينة قبل الحفظ</string>
+    <string name="period_table_preview_summary">يؤثر على %1$d جدول/جداول: سيتغير وقت %2$d حصة، و%3$d دون تغيير</string>
+    <string name="period_table_preview_more">…و%1$d حصة أخرى</string>
+    <string name="period_table_preview_confirm">حفظ</string>
+    <string name="period_table_bind_preview_title">تأكيد إعادة الربط</string>
+    <string name="period_table_bind_preview_body">بعد التبديل، سيفسر هذا الجدول الفترات وفق جدول الجرس الجديد؛ ولن تتأثر الحصص ذات الأوقات المخصصة</string>
+    <string name="schedule_conflict_dialog_title">إلى أين يجب أن يذهب تغيير الجدول هذا؟</string>
+    <string name="schedule_conflict_dialog_summary">الجدول الحالي: %1$s (%2$s)</string>
+    <string name="schedule_conflict_dialog_summary_only_this">هذا الجدول فقط يستخدمه</string>
+    <string name="schedule_conflict_dialog_summary_other_count">مرتبط بـ %1$d جداول أخرى</string>
+    <string name="schedule_conflict_option_detach_title">هذا الجدول فقط</string>
+    <string name="schedule_conflict_option_detach_sub">سيحصل هذا الجدول على جدول خاص به ويتوقف عن اتباع جدول الفترات المشترك</string>
+    <string name="schedule_conflict_option_create_title">إنشاء جدول جديد وربطه</string>
+    <string name="schedule_conflict_option_create_sub">ينشئ جدولًا جديدًا باسم هذا الجدول؛ ولن تتأثر الجداول الأخرى</string>
+    <string name="schedule_conflict_option_sync_title">مزامنة التغييرات مع جدول الفترات "%1$s"</string>
+    <string name="schedule_conflict_option_sync_sub_other">سيؤثر على %1$d جداول أخرى</string>
+    <string name="schedule_conflict_option_sync_sub_only">هذا الجدول فقط يستخدم هذا الجدول</string>
+    <string name="schedule_conflict_banner_format">قيد الانتظار: %1$s · سيُطبّق عند الحفظ التالي</string>
+    <string name="schedule_conflict_banner_modify">تغيير</string>
+    <string name="import_drafts">مسودات الاستيراد</string>
+    <string name="import_drafts_empty">لا توجد مسودات استيراد محفوظة</string>
+    <string name="import_draft_restore">استعادة المسودة</string>
+    <string name="import_draft_delete">حذف المسودة</string>
+    <string name="import_draft_saved_at">تم الحفظ %1$s</string>
+    <string name="jw_import_exit_title">الخروج من الاستيراد؟</string>
+    <string name="jw_import_exit_message">لم يكتمل هذا الاستيراد. يمكنك الاحتفاظ بمسودة والمتابعة لاحقًا.</string>
+    <string name="jw_import_exit_continue">متابعة</string>
+    <string name="jw_import_exit_keep_draft">الاحتفاظ بالمسودة</string>
+    <string name="jw_import_exit_delete_draft">حذف المسودة</string>
+    <string name="import_three_layers_dropped">تتداخل الحصص في هذه التواريخ بأكثر من طبقتين وتم تخطيها: %1$s</string>
+    <string name="import_three_layers_kept">ملاحظة: لدى %1$s حصص تتداخل بأكثر من طبقتين؛ تم الاحتفاظ بها (الجدول لا يدعم عرض الأعمدة)</string>
+    <string name="conflict_default_top_title">اختيار الحصة المثبتة الافتراضية</string>
+    <string name="color_toast_last_group">ستتبع الفترة الأخيرة لون المجموعة</string>
+    <string name="import_multi_location_warning">بعض الحصص لها مواقع متعددة</string>
+    <string name="import_multi_location_warning_detail">لدى %1$s %2$d مواقع مختلفة؛ وستظهر كفترات منفصلة بعد الاستيراد</string>
+    <string name="today_nav_today_short">اليوم</string>
+    <string name="jw_diag_session_expired">انتهت جلسة %1$s أو لم يتم تسجيل الدخول. سجّل الدخول مرة أخرى، وابْقَ في صفحة الجدول الشخصي، ثم نفّذ الجلب</string>
+    <string name="jw_diag_no_container">لم يتم العثور على حاوية جدول في %1$s. قد تكون الصفحة لا تزال قيد التحميل، أو تستخدم جدولًا كصورة، أو تحتوي على إطار من نطاق آخر، أو تستخدم نظامًا مطورًا</string>
+    <string name="jw_diag_header_no_node">لا يحتوي جدول %1$s على عناوين صفوف لكل فترة. قد يكون جدولًا كصورة أو يحتوي على عناوين مدمجة</string>
+    <string name="jw_diag_image_cells">خلايا جدول %1$s عبارة عن صور ولا يمكن التعرف عليها. استورد HTML/CSV أو أضف الحصص يدويًا</string>
+    <string name="jw_diag_empty_semester">يُبلغ %1$s عن عدم وجود حصص في هذا الفصل. تحقق من الفصل المحدد</string>
+    <string name="jw_diag_wrong_protocol">البروتوكول المحدد لـ %1$s لا يطابق الصفحة. قد تكون الجامعة قد غيّرت النظام</string>
+    <string name="jw_diag_unknown_empty">لم يُرجع %1$s أي حصص لسبب غير معروف. أعد المحاولة أو أبلغ عن المشكلة. الميزات: %2$s</string>
+    <string name="jw_diag_campus_vpn_hint">قد لا يمكن الوصول إلى نظام هذه الجامعة إلا داخل الحرم. اتصل بشبكة الحرم أو VPN</string>
+    <string name="jw_diag_qz_vpn_hint">إذا لم يتم تحميل QiangZhi، فقد تكون الجلسة انتهت أو تكون الشبكة مقيدة</string>
+    <string name="jw_fetch_session_expired">انتهت الجلسة. سجّل الدخول مرة أخرى واضغط على الاستيراد</string>
+    <string name="jw_fetch_parse_failed">تم جلب البيانات لكن تعذر تحليل أي حصص. افتح صفحة الجدول الشخصي</string>
+    <string name="jw_fetch_network">خطأ في الشبكة. تحقق من الاتصال وحاول مرة أخرى</string>
+    <string name="jw_fetch_empty">لا توجد حصص في هذا الفصل. تحقق من الفصل المحدد</string>
+</resources>
