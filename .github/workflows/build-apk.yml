@@ -1,0 +1,55 @@
+name: Build Hassati APK
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rebuild project archive
+        shell: bash
+        run: |
+          set -e
+          cat Hassati-part-aa Hassati-part-ab Hassati-part-ac > Hassati-Sleepy-Arabic-stage1.zip
+          unzip -q Hassati-Sleepy-Arabic-stage1.zip
+          cd sleepy-main
+          sed -i 's#https://mirrors.cloud.tencent.com/gradle/gradle-9.3.1-bin.zip#https://services.gradle.org/distributions/gradle-9.3.1-bin.zip#' gradle/wrapper/gradle-wrapper.properties
+          chmod +x gradlew
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK 37
+        shell: bash
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platform-tools" "platforms;android-37" "build-tools;37.0.0"
+
+      - name: Build debug APK
+        shell: bash
+        run: |
+          cd sleepy-main
+          ./gradlew --no-daemon assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Hassati-debug-apk
+          path: sleepy-main/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 30
