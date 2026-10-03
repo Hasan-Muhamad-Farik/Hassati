@@ -32,7 +32,6 @@ jobs:
         shell: bash
         run: |
           set -e
-
           cp strings.xml sleepy-main/app/src/main/res/values-ar/strings.xml
 
       - name: Add Arabic to LocaleHelper
@@ -56,21 +55,29 @@ jobs:
           file = Path(sys.argv[1])
           text = file.read_text(encoding="utf-8")
 
-          old = '    "es" -> Locale("es")\n    else -> Locale.getDefault()'
+          if '"ar" -> Locale("ar")' in text:
+              print("Arabic locale already exists.")
+              sys.exit(0)
 
-          new = '    "es" -> Locale("es")\n    "ar" -> Locale("ar")\n    else -> Locale.getDefault()'
+          marker = '        "es" -> Locale("es")'
 
-          if '"ar" -> Locale("ar")' not in text:
-              if old not in text:
-                  print("Expected LocaleHelper code was not found.")
-                  print("No changes were made.")
-                  sys.exit(1)
+          if marker not in text:
+              print("Spanish locale line was not found.")
+              sys.exit(1)
 
-              text = text.replace(old, new, 1)
-              file.write_text(text, encoding="utf-8")
+          text = text.replace(
+              marker,
+              marker + '\n        "ar" -> Locale("ar")',
+              1
+          )
+
+          file.write_text(text, encoding="utf-8")
 
           print("Arabic locale added successfully.")
           PY
+
+          echo "===== LocaleHelper result ====="
+          grep -A8 'fun getLocale' "$FILE"
 
       - name: Configure Android app languages
         shell: bash
@@ -146,10 +153,26 @@ jobs:
 
           ./gradlew --no-daemon assembleDebug
 
-      - name: Upload APK
+      - name: Prepare one ARM64 APK
+        shell: bash
+        run: |
+          set -e
+
+          APK="sleepy-main/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk"
+
+          if [ ! -f "$APK" ]; then
+            echo "ARM64 APK not found."
+            echo "Available APK files:"
+            find sleepy-main/app/build/outputs/apk/debug -type f -name "*.apk"
+            exit 1
+          fi
+
+          cp "$APK" Hassati-arabic-arm64.apk
+
+      - name: Upload one APK
         uses: actions/upload-artifact@v4
         with:
-          name: Hassati-arabic-debug-apk
-          path: sleepy-main/app/build/outputs/apk/debug/*.apk
+          name: Hassati-arabic-arm64
+          path: Hassati-arabic-arm64.apk
           if-no-files-found: error
           retention-days: 30
